@@ -1,0 +1,47 @@
+# CENTER LEFT RIGHT
+# Black    DarkRed    DarkGreen PeaGreen  DarkBlue
+# Lavender Slate      LightGray PaleGreen PaleBlue
+# OffWhite MediumGray DarkGray  RightRed  BrightGreen
+# Yellow   BrightBlue Magenta   Cyan      White
+#
+#---Align---LineU-------LineD-------Text--------Background------Font----HeightOffset---
+#-----------------------------------------------------------------------
+0   CENTER  White       DarkGray    Black       13		0
+1   CENTER  DarkGray    White       Black       13		0
+2   CENTER  White       DarkGray    Black       13		1
+3   CENTER  DarkGray    White       Black       13		1
+4   CENTER  White       DarkGray    Black       13		2
+5   CENTER  DarkGray    White       Black       13		2
+6   CENTER  White       DarkGray    Black       13		3
+7   CENTER  DarkGray    White       Black       13		3
+
+21  CENTER  Black       Black       Black       PaleGreen	0
+22  CENTER  Black       Black       Black       PaleBlue	0
+
+31  CENTER  Black       Black       Black       PaleBlue	10
+32  CENTER  Black       Black       White       RightRed	10
+33  CENTER  Black       Black       Black       Yellow		10
+34  CENTER  Black       Black       White       BrightBlue	10
+35  CENTER  Black       Black       Black       Magenta		10
+36  CENTER  Black       Black       Black       Cyan		10
+
+37  CENTER  White       DarkGray    Black       13		20
+38  CENTER  DarkGray    White       Black       13		21
+
+51  CENTER  231         231         Black       231		0
+52  CENTER  235	        White       Black       231		0
+53  CENTER  White       235         Black       231		0
+54  CENTER  231         White       Black       231		0
+
+60  CENTER  Blank       Blank       White       Blank		12
+61  CENTER  Black       Black       Black       PaleBlue	12
+62  CENTER  Black       Black       White       RightRed	12
+63  CENTER  Blank       Blank       Black       Blank		12
+
+64  CENTER  Blank       Blank       White       Blank		11
+
+98  CENTER  Blank       Blank       Black       Blank		20
+99  CENTER  Blank       Blank       Black       Blank		11
+
+
+

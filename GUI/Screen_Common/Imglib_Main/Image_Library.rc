@@ -1,0 +1,24 @@
+/////////////////////////////////////////////////////////////////////////////
+// Polytech Sample Main Image Library
+// Edit Date : 24-06-10
+////////////////////////////////////////////////////////////////////////////
+
+
+// Valve
+B_0001_0000000000  			BITMAP    IMAGE/Valve/HValve_Close.bmp
+B_0001_0000000000_X			BITMAP    IMAGE/Valve/HValve_Close_X.bmp
+B_0001_0000000001  			BITMAP    IMAGE/Valve/HValve_Open.bmp
+B_0001_0000000001_X			BITMAP    IMAGE/Valve/HValve_Open_X.bmp
+
+B_0010_0000000000  			BITMAP    IMAGE/Switch/Pump_Off.bmp
+B_0010_0000000001  			BITMAP    IMAGE/Switch/Pump_On.bmp
+
+B_0011_0000000000  			BITMAP    IMAGE/Gate/BM1_Close.bmp
+B_0011_0000000001  			BITMAP    IMAGE/Gate/BM2_Close.bmp
+
+B_0012_0000000000  			BITMAP    IMAGE/Button/Button_Execute1_Enable.bmp
+B_0012_0000000001  			BITMAP    IMAGE/Button/Button_Execute1_Disable.bmp
+
+// Switch
+B_0100_0000000000  			BITMAP    IMAGE/Switch/Switch2_OffOn_Off.bmp
+B_0100_0000000001  			BITMAP    IMAGE/Switch/Switch2_OffOn_On.bmp

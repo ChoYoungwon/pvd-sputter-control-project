@@ -1,0 +1,420 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_RBLOW_CONTROL	801-830
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+801 TM.ROBOT.COMM_ERROR {
+	"TM Robot Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+802 TM.ROBOT.NOT_HOME {
+	"TM Robot Not Home yet"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+803 TM.ROBOT.ARM_EXTEND {
+	"TM Robot Arm Not Retract"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+804 TM.ROBOT.SERVO_OFF {
+	"TM Robot Servo Off"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+805 TM.ROBOT.ALREADY_RUN {
+	"TM Robot Already Run"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+806 TM.ROBOT.ERROR {
+	"TM Robot has a Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+807 TM.ROBOT.OTHER {
+	"TM Robot has Other Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+808 TM.ROBOT.HOME_TIMEOUT {
+	"TM Robot Home Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+809 TM.ROBOT.PICK_TIMEOUT {
+	"TM Robot Pick Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+810 TM.ROBOT.PLACE_TIMEOUT {
+	"TM Robot Place Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+811 TM.ROBOT.ROTATE_TIMEOUT {
+	"TM Robot Rotate Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+812 TM.ROBOT.EXTEND_TIMEOUT {
+	"TM Robot Extend Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+813 TM.ROBOT.RETRACT_TIMEOUT {
+	"TM Robot Retract Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+814 TM.ROBOT.UP_TIMEOUT {
+	"TM Robot Up Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+815 TM.ROBOT.DOWN_TIMEOUT {
+	"TM Robot Down Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+816 TM.ROBOT.BUSY {
+	"TM Robot is Busy"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_GX_CONTROL	826-830
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+826 TM.GX.ERROR {
+	"Lid Not Closed or N2 Pressure Not Good"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+# 2002.02.01 Append from Kornic for READY Part
+
+827 TM.READY.ERROR {
+	"TM is not Vacuum. Please prepare vacuum status"
+	CLEAR		"Clear this Alarm"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_TM_VAC_CONTROL	831-850
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+831 TM.S_VENT_TIMEOUT {
+	"TM Soft Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+832 TM.F_VENT_TIMEOUT {
+	"TM Fast Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+833 TM.S_PUMP_TIMEOUT {
+	"TM Soft Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+834 TM.F_PUMP_TIMEOUT {
+	"TM Fast Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+835 TM.ISO_CLOSE {
+	"TM Iso Valve Close Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+836 TM.ISO_OPEN {
+	"TM Iso Valve Open Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+837 TM.PUMP_CHECK {
+	"TM Pump Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+838 TM.PUMP2_CHECK {
+	"TM Pump2 Check Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_TP_TM_PUMP_CONTROL	851-860
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+851 TM.TP.PUMP_COMM_ERR {
+	"TM TurboPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+852 TM.TP.PUMP_ON_ERR {
+	"TM TurboPump ON Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+853 TM.TP.PUMP_OFF_ERR {
+	"TM TurboPump OFF Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+854 TM.TP.PUMP_FAULT {
+	"TM TurboPump Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+855 TM.TP.ERROR {
+	"TM TurboPump Low Speed or has a Error"
+	RETRY		"Retry Turbo On"
+	ABORT		"Pump Shutdown"
+	IGNORE		"Ignore Error"
+}
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_FORE_PUMP_CONTROL	861-870
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+861 TM.PUMPF.COMM_ERROR {
+	"TM ForePump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+862 TM.PUMPF.PUMP_CTR_TMO {
+	"TM ForePump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_ROUGH_PUMP_CONTROL	871-880
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+871 TM.PUMPR.COMM_ERROR {
+	"TM RoughPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+872 TM.PUMPR.PUMP_CTR_TMO {
+	"TM RoughPump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_ALIGNLOW_CONTROL	901-908
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+901 TM.AL.COMM_ERROR {
+	"Aligner Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+902 TM.AL.ALIGN {
+	"Aligner has a Error when Aligning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+903 TM.AL.HOME {
+	"Aligner has a Error when Homing"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+904 TM.AL.RESET {
+	"Aligner has a Error when Reset"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+905 TM.AL.SCAN {
+	"Aligner has a Error when Scanning"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+906 TM.AL.ERROR {
+	"Aligner has a Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_ALIGNER_CONTROL	909
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+909 TM.AL.ALIGN_RETRY {
+	"Aligner has a Retry Limit"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_COOLER_CONTROL	911-920
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_WFRSNS_CONTROL	921-930
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+921 TM.WFRSNS.ABS_PIC {
+	"Glass is Present When Robot try to Pick the Glass"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+922 TM.WFRSNS.PRS_PIC {
+	"Glass is Absent When Robot try to Pick the Glass"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+923 TM.WFRSNS.ABS_PLC {
+	"Glass is Present When Robot try to Place the Glass"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+924 TM.WFRSNS.PRS_PLC {
+	"Glass is Absent When Robot try to Place the Glass"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_ISOGATE_CONTROL	931-934
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+931 TM.GATE.COMM_ERR {
+	"IsoGate Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+932 TM.GATE.CLOSE_TMO {
+	"Iso Gate Close Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+933 TM.GATE.OPEN_TMO {
+	"Iso Gate Open Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+934 TM.GATE.CLOSE_RM_RET {
+	"Iso Gate Close Error - Robot not Retract"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+935 GATE{
+	"GATE CLOSE"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}

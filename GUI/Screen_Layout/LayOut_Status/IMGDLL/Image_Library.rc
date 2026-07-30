@@ -1,0 +1,160 @@
+/////////////////////////////////////////////////////////////////////////////
+// GX6000 Image Library
+// Edit Date : 19-08-27
+////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////// 1401~1600 : StatusBar Button Image	 /////////////////////// 
+
+// Normal Alarm  Button
+B_1401_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_NoAlarm_Enable.bmp
+B_1401_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_NoAlarm_Press.bmp
+B_1401_0000000002     	BITMAP       IMAGE/Button/Status_Bar/Button_NoAlarm_Disable.bmp
+B_1401_0000000010     	BITMAP       IMAGE/Button/Status_Bar/Button_Alarm_Enable.bmp
+B_1401_0000000011     	BITMAP       IMAGE/Button/Status_Bar/Button_Alarm_Press.bmp
+B_1401_0000000012     	BITMAP       IMAGE/Button/Status_Bar/Button_Alarm_Disable.bmp
+
+// Small Alarm Button
+B_1402_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_NoAlarm_Enable_Small.bmp
+B_1402_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_NoAlarm_Press_Small.bmp
+B_1402_0000000002     	BITMAP       IMAGE/Button/Status_Bar/Button_NoAlarm_Disable_Small.bmp
+B_1402_0000000010     	BITMAP       IMAGE/Button/Status_Bar/Button_Alarm_Enable_Small.bmp
+B_1402_0000000011     	BITMAP       IMAGE/Button/Status_Bar/Button_Alarm_Press_Small.bmp
+B_1402_0000000012     	BITMAP       IMAGE/Button/Status_Bar/Button_Alarm_Disable_Small.bmp
+
+// Alarm - Background Blink
+B_1403_0000000000     	BITMAP       IMAGE/Status_Bar/BACKGROUND_Status_Red.bmp
+
+// Yellow Button
+B_1404_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Buzzer_Disable.bmp
+B_1404_0000000001	    BITMAP       IMAGE/Button/Status_Bar/Button_YellowBuzzer_Enable.bmp
+
+// Red Button
+B_1405_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Buzzer_Disable.bmp
+B_1405_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_RedBuzzer_Enable.bmp
+
+// Exit Button
+B_1406_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Exit_Disable.bmp
+B_1406_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_Exit_Enable.bmp
+B_1406_0000000002     	BITMAP       IMAGE/Button/Status_Bar/Button_Exit_Press.bmp
+
+// Host Communication 
+B_1407_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Host_Enable.bmp
+B_1407_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_Host_Press.bmp
+B_1407_0000000002     	BITMAP       IMAGE/Button/Status_Bar/Button_Host_Disable.bmp
+
+// Host Communication - Small
+B_1408_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Host_Enable_Small.bmp
+B_1408_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_Host_Press_Small.bmp
+B_1408_0000000002     	BITMAP       IMAGE/Button/Status_Bar/Button_Host_Disable_Small.bmp
+
+// Log In/Out Button
+B_1409_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_LogIn_Enable.bmp
+B_1409_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_LogIn_Press.bmp
+
+// Log In/Out Button - Small
+B_1410_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_LogIn_Enable_Small.bmp
+B_1410_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_LogIn_Press_Small.bmp
+
+// Main Button
+B_1411_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Main_Enable.bmp
+B_1411_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_Main_Press.bmp
+B_1411_0000000002     	BITMAP       IMAGE/Button/Status_Bar/Button_Main_Disable.bmp
+
+// Main Button - Small
+B_1412_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Main_Enable_Small.bmp
+B_1412_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_Main_Press_Small.bmp
+B_1412_0000000002     	BITMAP       IMAGE/Button/Status_Bar/Button_Main_Disable_Small.bmp
+
+// Close Button
+B_1413_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Close_Enable.bmp
+B_1413_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_Close_Press.bmp
+
+// Exit Button(Solo)
+B_1414_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_Exit_Enable.bmp
+
+// BookMark Button
+B_1415_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_BookMark_Enable.bmp
+B_1415_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_BookMark_Press.bmp
+// BookMark Small Button
+B_1416_0000000000     	BITMAP       IMAGE/Button/Status_Bar/Button_BookMark_Small_Enable.bmp
+B_1416_0000000001     	BITMAP       IMAGE/Button/Status_Bar/Button_BookMark_Small_Press.bmp
+
+
+/////////////////////// 2301~2500 : StatusBar Image	 /////////////////////// 
+
+//3 Color
+B_2301_0000000000         	BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_BackImage.bmp
+B_2301_0000000001	        	BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_BackImage.bmp
+B_2301_0000000002         	BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_BackImage.bmp
+
+B_2302_0000000001         	BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_Green_Active.bmp
+B_2302_0000000001_1        BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_Green_Active_Off.bmp
+
+B_2303_0000000001         	BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_Amber_Active.bmp
+B_2303_0000000001_1        BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_Amber_Active_Off.bmp
+
+B_2304_0000000001         	BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_Red_Active.bmp
+B_2304_0000000001_1        BITMAP       IMAGE/Status_Bar/SignalTower/3Color/SignalTower_Red_Active_Off.bmp
+
+//4 Color
+B_2305_0000000000         	BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_BackImage.bmp
+
+B_2306_0000000001         	BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Green_Active.bmp
+B_2306_0000000001_1        BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Green_Active_Off.bmp
+
+B_2307_0000000001         	BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Amber_Active.bmp
+B_2307_0000000001_1        BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Amber_Active_Off.bmp
+
+B_2308_0000000001         	BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Red_Active.bmp
+B_2308_0000000001_1        BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Red_Active_Off.bmp
+
+B_2309_0000000001         	BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Blue_Active.bmp
+B_2309_0000000001_1        BITMAP       IMAGE/Status_Bar/SignalTower/4Color/SignalTower_Blue_Active_Off.bmp
+
+//Alarm Info Box
+B_2320_0000000000        BITMAP       IMAGE/Status_Bar/Alarm_Info_Box.bmp
+B_2321_0000000000        BITMAP       IMAGE/Status_Bar/Alarm_Info_Box2.bmp
+B_2321_0000000000_1      BITMAP       IMAGE/Status_Bar/Alarm_Info_Box.bmp
+
+//CommStatus Image 
+B_2322_0000000001      	BITMAP  IMAGE/Status_Bar/CommStatus_Light/1_CommStatus_StandbyL_Yellow.bmp
+B_2322_0000000001_X  	BITMAP  IMAGE/Status_Bar/CommStatus_Light/1_CommStatus_StandbyL_Yellow_X.bmp
+B_2322_0000000002_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/2_CommStatus_Disc_Red.bmp
+B_2322_0000000002_1_X	BITMAP  IMAGE/Status_Bar/CommStatus_Light/2_CommStatus_Disc_Red_X.bmp
+B_2322_0000000003       BITMAP  IMAGE/Status_Bar/CommStatus_Light/3_CommStatus_Standby_Blue.bmp
+B_2322_0000000003_X  	BITMAP  IMAGE/Status_Bar/CommStatus_Light/3_CommStatus_Standby_Blue_X.bmp
+B_2322_0000000004_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/4_CommStatus_Maint_Gray.bmp
+B_2322_0000000004_1_X	BITMAP  IMAGE/Status_Bar/CommStatus_Light/4_CommStatus_Maint_Gray_X.bmp
+B_2322_0000000005_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/5_CommStatus_Uninit_Gray.bmp
+B_2322_0000000005_1_X	BITMAP  IMAGE/Status_Bar/CommStatus_Light/5_CommStatus_Uninit_Gray_X.bmp
+B_2322_0000000006		BITMAP  IMAGE/Status_Bar/CommStatus_Light/6_CommStatus_EnablePM_Blue.bmp
+B_2322_0000000006_X		BITMAP  IMAGE/Status_Bar/CommStatus_Light/6_CommStatus_EnablePM_Blue_X.bmp
+B_2322_0000000007_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/7_CommStatus_CTCinUSE_Blue.bmp
+B_2322_0000000008_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/8_CommStatus_GoMaint_Gray.bmp
+B_2322_0000000009_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/9_CommStatus_GoMaint2_Gray.bmp
+B_2322_0000000010		BITMAP  IMAGE/Status_Bar/CommStatus_Light/10_CommStatus_CTCEnablePM_Blue.bmp
+B_2322_0000000011_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/11_CommStatus_GoInit_Gray.bmp
+B_2322_0000000012_1     BITMAP  IMAGE/Status_Bar/CommStatus_Light/12_CommStatus_GoInit2_Gray.bmp
+
+// CommStatus Window Image
+B_2323_0000000000         	BITMAP       IMAGE/Status_Bar/CommStatus.bmp
+
+// TimeStatus Window Image
+B_2324_0000000000         	BITMAP       IMAGE/Status_Bar/TimeStatus.bmp
+
+// Alarm Status Image
+B_2325_0000000001_1         BITMAP       IMAGE/Status_Bar/AlarmStatus/AlarmStatus_Red.bmp
+
+// Kornic Logo Image 
+B_2326_0000000000         	BITMAP       IMAGE/BUTTON/Status_Bar/Button_Logo.bmp
+B_2326_0000000001         	BITMAP       IMAGE/BUTTON/Status_Bar/Button_Logo_Press.bmp
+B_2326_0000000002         	BITMAP       IMAGE/BUTTON/Status_Bar/Button_Logo.bmp
+
+// EasyCluster Connect
+B_2327_0000000000_1     BITMAP       IMAGE/Status_Bar/CommStatus_Light/Ball_Red.bmp
+B_2327_0000000001       BITMAP       IMAGE/Status_Bar/CommStatus_Light/Ball_Blue.bmp
+B_2327_0000000002_1     BITMAP       IMAGE/Status_Bar/CommStatus_Light/Ball_ConUse_Blue.bmp
+B_2327_0000000003_1     BITMAP       IMAGE/Status_Bar/CommStatus_Light/Ball_ConDis_Gray.bmp
+B_2327_0000000004_1		BITMAP       IMAGE/Status_Bar/CommStatus_Light/Ball_ConDisHW_Gray.bmp
+

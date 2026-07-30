@@ -1,0 +1,26 @@
+#-----------------------------------------------------------------------------------------------------------
+# GDF MANAGER Version 6.1(2024.06.01) (Edit Date:2026/7/21 15:26:14 for Popup 61)
+#-----------------------------------------------------------------------------------------------------------
+dv_OverView_Image	D_IN	0	-1	IMG		103	""
+$	D_INM	157	2	IMG	302	""	PM1.dvRCP_Process_Run	CTC.FA_STATUS_MDL_PM1	PM1.dvVacuumStatus
+$	D_INM	105	104	IMG	401	""	CTC.FA_STATUS_MDL_TM	TM.VacuumStatus
+CTC.CM1_CommStatus	D_IN	152	318	IMG		202	""
+$	D_INM	164	88	IMG	702	""	diPM1GateDownSen	diPM1GateUpSen
+diLP_CM1_Shuttle_Status	D_IN	152	318	IMG		211	"diLP_CM1_Placed==1"
+#dvBM2_Info	D_IN	334	404	IMG		502	""
+CTC.PM1_Wafer_Result	D_IN	179	23	IMGB	8	"CTC.PM1_Wafer_Status>0"
+CTC.PM1_Wafer_Source	D_IN	174	34	TXTU_20(35:25:Arial:W:White)	0	"CTC.PM1_Wafer_Status>0 && CTC.PM1_Wafer_Result != 3"
+CTC.PM1_Wafer_Status	D_IN	189	34	TXTU_20(35:25:Arial:W:White)	0	"CTC.PM1_Wafer_Status>0 && CTC.PM1_Wafer_Result != 3"
+CTC.PM1_Wafer_Source	D_IN	174	34	TXTU_20(35:25:Arial:W)	0	"CTC.PM1_Wafer_Status>0 && CTC.PM1_Wafer_Result == 3"
+CTC.PM1_Wafer_Status	D_IN	189	34	TXTU_20(35:25:Arial:W)	0	"CTC.PM1_Wafer_Status>0 && CTC.PM1_Wafer_Result == 3"
+"PM1"	TS_IN	93	6	TXTU_16(80:25:Arial:W:White)	0	""
+"INDEXER"	TS_IN	69	328	TXTU_16(80:25:Arial:W:White)	0	""
+$	D_INM	166	213	IMGDLL	"K:\Imgdll\RobotM4N.dll"	""	CTC.TA_Wafer_Status	CTC.TA_Wafer_Source	611	11	CTC.TA_Wafer_Result	20	CTC.RB_Rotation	CTC.RB_Extension	50.000	10.000
+"PM2"	TS_IN	9	142	TXTU_16(80:25:Arial:W:White)	0	""
+$	D_INM	679	176	IMG	301	""	PM2.dvRCP_Process_Run	CTC.FA_STATUS_MDL_PM2	PM2.dvVacuumStatus
+$	D_INM	686	262	IMG	701	""	diPM2GateDownSen	diPM2GateUpSen
+CTC.PM2_Wafer_Result	D_IN	701	197	IMGB	8	"CTC.PM2_Wafer_Status>0"
+CTC.PM2_Wafer_Source	D_IN	696	208	TXTU_20(35:25:Arial:W:White)	0	"CTC.PM2_Wafer_Status>0 && CTC.PM2_Wafer_Result != 3"
+CTC.PM2_Wafer_Status	D_IN	711	208	TXTU_20(35:25:Arial:W:White)	0	"CTC.PM2_Wafer_Status>0 && CTC.PM2_Wafer_Result != 3"
+CTC.PM2_Wafer_Source	D_IN	696	208	TXTU_20(35:25:Arial:W)	0	"CTC.PM2_Wafer_Status>0 && CTC.PM2_Wafer_Result == 3"
+CTC.PM2_Wafer_Status	D_IN	711	208	TXTU_20(35:25:Arial:W)	0	"CTC.PM2_Wafer_Status>0 && CTC.PM2_Wafer_Result == 3"

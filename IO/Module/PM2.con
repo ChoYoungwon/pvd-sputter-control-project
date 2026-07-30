@@ -1,0 +1,77 @@
+#$$$ Analog
+#	Analog Output
+############################################################################################################################################################
+#				|IN											|OUT
+#   Name			Units	Driver		ID1	ID2	ID3	Dec	Min		Max		Poll	Driver	ID1	ID2	ID3	Dec	Min		Max
+#   ----			-----	------		---	---	---	---	------		------		----	------		---	---	---	---	------		------
+
+#$$$ Analog
+#   Name				Units		Driver	ID1	ID2	ID3	Dec	Min	Max	Poll	Driver	ID1	ID2	ID3	Dec	Min	Max
+#   ----			-----	------	---	---	---	---	---	---	----	------	---	---	---	---	---	---
+
+
+
+$$$ Begin  PM2
+#------------------------------------------------
+#$$$ String
+svLastAlarmTime
+svLastAlarmID	
+svLastAlarmModule
+svLastAlarmMessage
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# Process
+$$$ Digital
+
+dvUpperSendAble         eOFFON
+dvUpperSendStart        eOFFON
+dvUpperSendComplete     eOFFON
+dvLowerRecvAble         eOFFON
+dvLowerRecvStart        eOFFON
+dvLowerRecvComplete     eOFFON
+
+
+# 중요----------------------------------------------------------------------------------------------------------------------------------------------------
+CommStatus	-	1
+AlarmStatus		AlarmSts  SYSTEM     0  0  3000  6999  1
+AlarmHappenSts
+
+EasyCluster_Connect
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+dvVacuumStatus			VACSTS
+dvMAIN_CONTROL			IdleRun
+dvControlStatus			ControlSts	UnInit
+dvPM_Wafer_Result		WfrReslt	
+dvPM_Wafer_Status	
+dvPM_Wafer_Source		CassSrc
+
+dvRCP_Process_DataLog
+
+dvRCP_MaxStep
+dvRCP_StepNumber
+
+dvRCP_Process_Status		PrcsStatus
+dvRCP_Process_Control		PrcsLastCtl
+dvRCP_Process_Run		PrcsStartEnd
+
+#------------------------------------------------
+$$$ Analog
+
+avRCP_Progress
+
+avRCP_Total_RunTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+avRCP_Total_SetTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+avRCP_Step_RunTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+avRCP_Step_SetTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+
+#------------------------------------------------
+$$$ String
+
+svRCP_File				""
+svRCP_Process_Message	""
+svRCP_Name				""
+svRCP_StepName			""
+
+
+$$$ End

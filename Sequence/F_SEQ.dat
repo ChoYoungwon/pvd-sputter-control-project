@@ -1,0 +1,223 @@
+#
+#
+# CTC Function
+#
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# Fixed Function for Cluster
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+AMHS_1_SIMULATOR		99  K:/Exec/Scheduler/Sch_AMHS_Sim			RUN		""	"System/AMHS_CM1_Simulator.cfg"
+
+SCHEDULER_MAINT_TOP		80	K:/Exec/Scheduler/Sch_Top_Maint
+
+SCHEDULER				70	Scheduler/Sch_Main				RUN		""	"Scheduler|Scheduler/FaRecipeAnal.dll|Scheduler/UserFlow.dll"
+
+SCHEDULER_BUTTON		68	K:/Exec/Scheduler/Sch_Button	ARGUMENT	"1"
+SCHEDULER_TIMER			68	K:/Exec/Scheduler/Sch_Timer		RUN
+
+SCHEDULER_LOTLOG1		60	K:/Exec/Scheduler/Sch_LotLog	ARGUMENT	"Scheduler"
+SCHEDULER_LOTLOG2		60	K:/Exec/Scheduler/Sch_LotLog	ARGUMENT	"Scheduler"
+SCHEDULER_LOTLOG3		60	K:/Exec/Scheduler/Sch_LotLog	ARGUMENT	"Scheduler"
+SCHEDULER_LOTLOG4		60	K:/Exec/Scheduler/Sch_LotLog	ARGUMENT	"Scheduler"
+
+SCHEDULER_ERROR			60	K:/Exec/Scheduler/Sch_Error		ARGUMENT	"Scheduler/Error.dat"
+
+SCHEDULER_MAINT_ALL			79	Sequence/SeqMaintAll/Sequence
+SCHEDULER_MAINT_CM1			70	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Maint_CM1.cfg"
+
+# GUI -> SCHEDULER(CM, PM1, PM2)
+SCHEDULER_MAINT_TM_ALL		71	Sequence/SeqMaintModule/Sequence			ARGUMENT	"TM"
+SCHEDULER_MAINT_PM1_ALL		71	Sequence/SeqMaintModule/Sequence			ARGUMENT	"PM1"
+SCHEDULER_MAINT_PM2_ALL		71	Sequence/SeqMaintModule/Sequence			ARGUMENT	"PM2"
+
+SCHEDULER_MAINT_TM			70	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Maint_TM.cfg"
+SCHEDULER_MAINT_PM1			70	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Maint_PM1.cfg"
+SCHEDULER_MAINT_PM2			70	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Maint_PM2.cfg"
+
+
+SCHEDULER_INTERFACE_TM		65	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Run_TM.cfg|TM"
+SCHEDULER_INTERFACE_CM1		65	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Run_CM.cfg|CM1"
+SCHEDULER_INTERFACE_PM1		65	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Run_PM.cfg|PM1"
+SCHEDULER_INTERFACE_PM2		65	K:/Exec/MsgConverter						ARGUMENT	"Sequence/Interface_Run_PM.cfg|PM2"
+
+
+SCHEDULER_PROCESS_PM1		65	K:/Exec/RcpHandler2							ARGUMENT	"Sequence/Interface_Run_Recipe.cfg|PM1"
+SCHEDULER_PROCESS_PM2		65	K:/Exec/RcpHandler2							ARGUMENT	"Sequence/Interface_Run_Recipe.cfg|PM2"
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# User Definition Function for Cluster
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+SEQ_MODULE_MONITOR			11	Sequence/SeqModuleMonitor/CarrierMonitor	RUN			""	"141 2 1"
+SEQ_CM1_EXCHANGE_HANDLER	10	Sequence/SeqCmCarrierExchangeHandling/Sequence	ARGUMENT       "CM1 131 1"
+SEQ_CM1_CONTROL				4	Sequence/SeqCmHandling/Sequence				ARGUMENT    "CM1 101 "
+SEQ_CM1_MID_CONTROL			3	Sequence/SeqCmMIDHandling/Sequence			ARGUMENT    "CM1 151 1"
+SEQ_CM1_MID_READ_CONTROL	2	Sequence/SeqCmRfCodeReading/Sequence		ARGUMENT    "CM1 151 Port1 CM1  "
+
+
+SEQ_ROBOT_TRANSFER			20	Sequence/SeqRobotTransfer/Sequence			ARGUMENT	""
+SEQ_ROBOT_MOTOR				10	Sequence/SeqRobotMotor/Sequence				ARGUMENT	""
+SEQ_ROBOT_SIMULATION		2	Sequence/SeqRobotAnimation/Sequence			ARGUMENT	""
+SEQ_PM1_DEVELOPER_CONTROL	6	Sequence/SeqDeveloperControl/Sequence		ARGUMENT	""
+SEQ_PM1_DEVELOPER_FLOW		5	Sequence/SeqDeveloperFlowControl/Sequence	ARGUMENT	""
+SEQ_PM2_CHAMBER_CONTROL	    6	Sequence/SeqPM2Control/Sequence		        ARGUMENT	""
+
+SEQ_SIMULATE_USER			1	Sequence/SeqSimulation/Sequence				ARGUMENT	""	""
+SEQ_SIMULATE				1	Sequence/GUI_Simulator						RUN			""	"Sequence/Simulation.cfg"
+SEQ_SPUTTER_DEVICE_CONTROL  1   Sequence/SeqSputterDeviceControl/Sequence   ARGUMENT    ""  ""
+
+
+#PM1.MAINT_INTERFACE		15	K:/Exec/MsgConverter				ARGUMENT	"Sequence/Interface_Maint_PM1.cfg"
+#PM1.INIT_CONTROL		9	K:/Exec/MsgReplacer					ARGUMENT	"-|Sequence/SeqTable/PM1_Initial.Seq"
+#PM1.STANDBY_CONTROL		9	K:/Exec/MsgReplacer					ARGUMENT	"-|Sequence/SeqTable/PM1_Standby.Seq"
+#PM1.RECIPE_HANDLER		10	K:/Exec/RcpHandler					ARGUMENT	"Sequence/RcpSetup.cfg"
+PM1.SEQ_PROCESS			8	Sequence/SeqProcessPM1/Sequence			ARGUMENT		"PM1 3000"
+PM2.SEQ_PROCESS			8	- SUCCESS
+#-------------------------------------------------------------------------------
+# CM1 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+CM1.HAND_OFF_IN		50	K:/EXEC/MsgReplacer             ARGUEMENT       "SEQ_CM1_CONTROL|LOAD %s"
+CM1.HAND_OFF_OUT	50	K:/EXEC/MsgReplacer             ARGUEMENT       "SEQ_CM1_CONTROL|UNLOAD_OPTION %s"
+																		   
+CM1.READY			50	K:/EXEC/MsgReplacer             ARGUEMENT       "-|Sequence/SeqTable/CM1_Ready.seq"
+CM1.END				50	-	SUCCESS	#K:/EXEC/MsgReplacer             ARGUEMENT       "-|Sequence/SeqTable/CM1_End.seq"
+
+CM1.CASSETTE_MAP	50	K:/EXEC/MsgReplacer             ARGUEMENT       "SEQ_CM1_CONTROL|LOAD %s"
+
+CM1.PREPARE_SEND	50	-	SUCCESS
+CM1.POST_SEND		50	-	SUCCESS
+CM1.PREPARE_RECV	50	-	SUCCESS
+CM1.POST_RECV		50	-	SUCCESS
+
+#-------------------------------------------------------------------------------
+# HandOff Extended Message
+#-------------------------------------------------------------------------------
+
+CM1.HAND_OFF_IN_ENTER	50	-	SUCCESS
+CM1.HAND_OFF_IN_LEAVE	50	-	SUCCESS
+CM1.HAND_OFF_OUT_ENTER  50	-	SUCCESS
+CM1.HAND_OFF_OUT_LEAVE	50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+CM1.CLEAR		50	-	SUCCESS
+
+#-------------------------------------
+# User Maintenance Interface Function for Remote
+#-------------------------------------
+CM1.SERV_MAIN		50	-	SUCCESS
+
+#-------------------------------------------------------------------------------
+# TM Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+TM.READY		50	K:/EXEC/MsgReplacer             ARGUEMENT       "-|Sequence/SeqTable/Rb_Ready.seq"
+TM.END			50	K:/EXEC/MsgReplacer             ARGUEMENT       "-|Sequence/SeqTable/Rb_End.seq"
+
+TM.PREPARE_SEND		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|SEND_ABLE %s"
+TM.POST_SEND		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|SEND_COMP %s"
+TM.PREPARE_RECV		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|RECV_ABLE %s"
+TM.POST_RECV		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|RECV_COMP %s"
+
+TM.PICK_WAFER		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|PICK %s"
+#TM.PICK_WAFER		50	K:/EXEC/MsgReplacer         ARGUEMENT       "-|Sequence/SeqTable/Rb_Pick.seq"
+TM.PLACE_WAFER		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|PLACE %s"
+TM.EXTPIC_WAFER		50	-	SUCCESS
+TM.RETPIC_WAFER		50	-	SUCCESS
+TM.EXTPLC_WAFER		50	-	SUCCESS
+TM.RETPLC_WAFER		50	-	SUCCESS
+
+TM.EXTEND_WAFER		50	-	SUCCESS
+TM.RETRACT_WAFER	50	-	SUCCESS
+TM.HOME_WAFER		50	-	SUCCESS
+TM.UP_WAFER			50	-	SUCCESS
+TM.DOWN_WAFER		50	-	SUCCESS
+TM.ROTATE_WAFER		50	-	SUCCESS
+TM.OPEN_GATE		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|OPEN_GATE %s"
+TM.CLOSE_GATE		50	K:/EXEC/MsgReplacer         ARGUEMENT       "SEQ_ROBOT_TRANSFER|CLOSE_GATE %s"
+
+TM.ALIGN_WAFER		50	-	SUCCESS
+TM.COOL_WAFER		50	-	SUCCESS
+
+TM.MOVE_SEND		50	-	SUCCESS
+TM.MOVE_RECV		50	-	SUCCESS
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+TM.CLEAR		50	-	SUCCESS
+
+#-------------------------------------
+# User Maintenance Interface Function for Remote
+#-------------------------------------
+
+TM.SERV_MAIN		50	-	SUCCESS
+
+#-------------------------------------------------------------------------------
+# PM1 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+PM1.READY			50	K:/EXEC/MsgReplacer	ARGUEMENT	"-|Sequence/SeqTable/PM1_Ready.seq"        
+PM1.END				50	K:/EXEC/MsgReplacer	ARGUEMENT	"-|Sequence/SeqTable/PM1_End.seq"          
+					                                                                                               
+PM1.PREPARE_SEND	50	K:/EXEC/MsgReplacer ARGUEMENT   "SEQ_PM1_DEVELOPER_CONTROL|SEND_ABLE %s"     
+PM1.POST_SEND		50	K:/EXEC/MsgReplacer ARGUEMENT   "SEQ_PM1_DEVELOPER_CONTROL|SEND_COMP %s"  
+PM1.PREPARE_RECV	50	K:/EXEC/MsgReplacer ARGUEMENT   "SEQ_PM1_DEVELOPER_CONTROL|RECV_ABLE %s"     
+PM1.POST_RECV		50	K:/EXEC/MsgReplacer ARGUEMENT   "SEQ_PM1_DEVELOPER_CONTROL|RECV_COMP %s"  
+				                                                                                               
+PM1.PREPARE_PICK	50	-	SUCCESS
+PM1.WAFER_PICK		50	-	SUCCESS
+PM1.PREPARE_PLACE	50	-	SUCCESS
+PM1.WAFER_PLACE		50	-	SUCCESS
+
+
+#-------------------------------------------------------------------------------
+# PM2 Part Scheduler Interface Function
+#-------------------------------------------------------------------------------
+
+PM2.READY				50	K:/EXEC/MsgReplacer	ARGUEMENT	"-|Sequence/SeqTable/PM2_Ready.seq"        
+PM2.END					50	K:/EXEC/MsgReplacer	ARGUEMENT	"-|Sequence/SeqTable/PM2_End.seq"          
+					                                                                                                   
+PM2.PREPARE_SEND		50	K:/EXEC/MsgReplacer ARGUEMENT   "SEQ_PM2_CHAMBER_CONTROL|SEND_ABLE %s"     
+PM2.POST_SEND			50	K:/EXEC/MsgReplacer	ARGUEMENT   "SEQ_PM2_CHAMBER_CONTROL|SEND_COMP %s"  
+PM2.PREPARE_RECV		50	K:/EXEC/MsgReplacer ARGUEMENT   "SEQ_PM2_CHAMBER_CONTROL|RECV_ABLE %s"     
+PM2.POST_RECV			50	K:/EXEC/MsgReplacer ARGUEMENT   "SEQ_PM2_CHAMBER_CONTROL|RECV_COMP %s"  
+				                                                                                                   
+PM2.PREPARE_PICK		50	-	SUCCESS
+PM2.WAFER_PICK			50	-	SUCCESS
+PM2.PREPARE_PLACE		50	-	SUCCESS
+PM2.WAFER_PLACE			50	-	SUCCESS
+
+
+#-------------------------------------
+# Process Run Interface Function with Recipe Handling
+#-------------------------------------
+	
+PM1.PROCESS_IN		50	Sequence/SeqProcessPM1/Sequence		ARGUEMENT	"PM1" 
+PM1.PROCESS_OUT		50	Sequence/SeqProcessPM1/Sequence		ARGUEMENT	"PM1" 
+
+PM2.PROCESS_IN		50	Sequence/SeqProcessPM2/Sequence		ARGUEMENT	"PM2" 
+PM2.PROCESS_OUT		50	Sequence/SeqProcessPM2/Sequence		ARGUEMENT	"PM2"
+
+
+#-------------------------------------
+# Scheduler Direct Interface Function for Process Data Logging
+#-------------------------------------
+
+PM1.PROCESS_LOG			7	K:/EXEC/Datalog	ARGUEMENT       "Sequence/PROCESS_LOG.cfg"
+PM2.PROCESS_LOG			7	K:/EXEC/Datalog	ARGUEMENT       "Sequence/PROCESS_LOG.cfg"
+
+#-------------------------------------
+# Transfer Clear Function for Remote
+#-------------------------------------
+
+PM1.CLEAR		50	-	SUCCESS
+PM2.CLEAR		50	-	SUCCESS
+
+#-------------------------------------
+# User Maintenance Interface Function for Remote
+#-------------------------------------

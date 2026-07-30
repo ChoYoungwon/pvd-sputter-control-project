@@ -1,0 +1,401 @@
+$$$ Digital
+
+CM1.AlarmStatus			AlarmSts	SYSTEM     0	0	101	150	1
+
+CM1.Mapping
+
+CM1.C01_Wafer			CTCMtlSts
+CM1.C02_Wafer			CTCMtlSts
+CM1.C03_Wafer			CTCMtlSts
+CM1.C04_Wafer			CTCMtlSts
+CM1.C05_Wafer			CTCMtlSts
+CM1.C06_Wafer			CTCMtlSts
+CM1.C07_Wafer			CTCMtlSts
+CM1.C08_Wafer			CTCMtlSts
+CM1.C09_Wafer			CTCMtlSts
+CM1.C10_Wafer			CTCMtlSts
+CM1.C11_Wafer			CTCMtlSts
+CM1.C12_Wafer			CTCMtlSts
+CM1.C13_Wafer			CTCMtlSts
+CM1.C14_Wafer			CTCMtlSts
+CM1.C15_Wafer			CTCMtlSts
+CM1.C16_Wafer			CTCMtlSts
+CM1.C17_Wafer			CTCMtlSts
+CM1.C18_Wafer			CTCMtlSts
+CM1.C19_Wafer			CTCMtlSts
+CM1.C20_Wafer			CTCMtlSts
+CM1.C21_Wafer			CTCMtlSts
+CM1.C22_Wafer			CTCMtlSts
+CM1.C23_Wafer			CTCMtlSts
+CM1.C24_Wafer			CTCMtlSts
+CM1.C25_Wafer			CTCMtlSts
+CM1.C26_Wafer			CTCMtlSts
+CM1.C27_Wafer			CTCMtlSts
+CM1.C28_Wafer			CTCMtlSts
+CM1.C29_Wafer			CTCMtlSts
+CM1.C30_Wafer			CTCMtlSts
+
+
+CM1.OPERATOR_CANCEL
+CM1.AMHS_MOVING			OffOn
+CM1.EVENT_SERVICE		OffOn
+CM1.PROCESS_END			OffOn
+CM1.PORT_SERVICE		ServiceMode
+
+CM1.MAPWAFER_COUNT
+CM1.RFID_PAGE_NUMBER		-		*	*	-	-	 -	-	-	3	17	3
+
+
+$$$ String
+
+CM1.MAPWAFER_INFO		""
+
+CM1.RFID_MID_PAGE		""
+CM1.RFID_PAGE1			""
+CM1.RFID_PAGE2			""
+CM1.RFID_PAGE3			""
+CM1.RFID_PAGE4			""
+CM1.RFID_PAGE5			""
+CM1.RFID_PAGE6			""
+CM1.RFID_PAGE7			""
+CM1.RFID_PAGE8			""
+CM1.RFID_PAGE9			""
+CM1.RFID_PAGE10			""
+CM1.RFID_PAGE11			""
+CM1.RFID_PAGE12			""
+CM1.RFID_PAGE13			""
+CM1.RFID_PAGE14			""
+CM1.RFID_PAGE15			""
+CM1.RFID_PAGE16			""
+CM1.RFID_PAGE17			""
+
+CM1.RFID_PAGE_DATA		""
+
+
+$$$ Digital
+# Module 에 존재할 시 Module IO 로 변경.
+dvHandShakeControlMode	InMode
+
+dvLP_CM1_Load_Button
+dvLP_CM1_Unload_Button
+
+dvLP_CM1_Auto_Lamp
+dvLP_CM1_Reserve_Lamp
+dvLP_CM1_Load_Lamp
+dvLP_CM1_Unload_Lamp
+dvLP_CM1_Alarm_Lamp
+
+dvLOAD_CM1_Signal		# Lamp Blink 기능 적용시 사용
+dvULOAD_CM1_Signal		# Lamp Blink 기능 적용시 사용
+dvMAPIN_CM1_Signal		# Lamp Blink 기능 적용시 사용
+dvCLMP_CM1_Signal		# Lamp Blink 기능 적용시 사용
+
+dvAMHS_CM1_TP1
+dvAMHS_CM1_TP2
+dvAMHS_CM1_TP3
+dvAMHS_CM1_TP4
+dvAMHS_CM1_TP5
+dvAMHS_CM1_TP6
+
+dvAMHS_CM1_L_Request		OffOn
+dvAMHS_CM1_U_Request		OffOn
+dvAMHS_CM1_NotUse_3		OffOn
+dvAMHS_CM1_Ready 		OffOn
+dvAMHS_CM1_NotUse_5		OffOn
+dvAMHS_CM1_NotUse_6		OffOn
+dvAMHS_CM1_HostAvailable	OffOn
+dvAMHS_CM1_EStop		OffOn
+dvAMHS_CM1_Enable		OffOn
+
+dvAMHS_CM1_Valid		OffOn
+dvAMHS_CM1_CS0			OffOn
+dvAMHS_CM1_CS1			OffOn
+dvAMHS_CM1_NotUse4		OffOn
+dvAMHS_CM1_TR_Request	OffOn
+dvAMHS_CM1_Busy			OffOn
+dvAMHS_CM1_Complete		OffOn
+dvAMHS_CM1_Cont			OffOn
+
+
+IO_Driver_Loding_CM
+
+
+$$$ Digital
+
+diPADLE_CM1_Extended		OffOn		-  0	8	0	0	1
+diPADLE_CM1_Retracted		OffOn		-  0	8	1	1	1
+diLATCH_CM1_Opened		OffOn		-  0	8	2	2	1
+diLATCH_CM1_Closed		OffOn		-  0	8	3	3	1
+diDOOR_CM1_Upped		OffOn		-  0	8	4	4	1
+diDOOR_CM1_Downed		OffOn		-  0	8	5	5	1
+diSHUTT_CM1_In			OffOn		-  0	8	6	6	1
+diSHUTT_CM1_Out			OffOn		-  0	8	7	7	1
+diWFR_CM1_SlideOut		OffOn		-  0	8	8	8	1
+diFOUP_CM1_Present		OffOn		-  0	8	9	9	1
+di200mm_CM1_Plased		OffOn		-  0	8	10	10	1
+diWFR_CM1_Number		OffOn		-  0	8	11	11	1
+diPFORM_CM1_Occupied		OffOn		-  0	8	12	12	1
+diFOUP_CM1_ProperlyPlaced	OffOn		-  0	8	13	13	1
+diVAC_CM1_Ok			OffOn		-  0	8	14	14	1
+diINTLK_CM1_Active		OffOn		-  0	8	15	15	1
+diSWCH_CM1_Unload1		OffOn		-  0	8	16	16	1
+diSWCH_CM1_Load2		OffOn		-  0	8	17	17	1
+diSWCH_CM1_Pause3		OffOn		-  0	8	18	18	1
+diSWCH_CM1_Resume4		OffOn		-  0	8	19	19	1
+diCLMP_CM1_Status		OffOn		-  0	8	20	20	1
+diUCLMP_CM1_Status		OffOn		-  0	8	21	21	1
+diDOOR_CM1_Closed		OffOn								# for CASS type
+diCARIR_CM1_Placed		OffOn		-  0	8	13	13	1	# for CASS(300mm),FOUP(300mm) Type ->Name must use this because code refer to this. 
+
+dioPADLE_CM1_Extend		OffOn		-	1	8	0	0	1	-	1	8	0	0
+dioPADLE_CM1_Retract	OffOn		-	1	8	1	1	1	-	1	8	1	1
+dioLATCH_CM1_Open		OffOn		-	1	8	2	2	1	-	1	8	2	2
+dioLATCH_CM1_Close		OffOn		-	1	8	3	3	1	-	1	8	3	3
+dioDOOR_CM1_Up			OffOn		-	1	8	4	4	1	-	1	8	4	4
+dioDOOR_CM1_Down		OffOn		-	1	8	5	5	1	-	1	8	5	5
+dioSHUTT_CM1_MoveIn		OffOn		-	1	8	6	6	1	-	1	8	6	6
+dioSHUTT_CM1_MoveOut		OffOn		-	1	8	7	7	1	-	1	8	7	7
+dioVAC_CM1_On			OffOn		-	1	8	14	14	1	-	1	8	14	14
+dioUCLMP_CM1_Set		OffOn		-	1	8	15	15	1	-	1	8	15	15
+dioCLMP_CM1_Set			OffOn		-	1	8	30	30	1	-	1	8	30	30
+
+dioLAMP_CM1_On1			OffOn		-	1	8	12	12	1	-	1	8	12	12
+dioLAMP_CM1_On2			OffOn		-	1	8	13	13	1	-	1	8	13	13
+dioLAMP_CM1_On3			OffOn		-	1	8	22	22	1	-	1	8	22	22
+dioLAMP_CM1_On4			OffOn		-	1	8	23	23	1	-	1	8	23	23
+dioLAMP_CM1_On5			OffOn		-	1	8	24	24	1	-	1	8	24	24
+dioLAMP_CM1_On6			OffOn		-	1	8	25	25	1	-	1	8	25	25
+dioLAMP_CM1_On7			OffOn		-	1	8	23	23	1	-	1	8	23	23	# Load Lamp   
+dioLAMP_CM1_On8			OffOn		-	1	8	24	24	1	-	1	8	24	24	# Unload Lamp
+dioLAMP_CM1_On9			OffOn		-	1	8	12	12	1	-	1	8	12	12	# Alarm Lamp 
+
+dvLAMP_CM1_Auto5
+dvLAMP_CM1_Reserve6
+dvLAMP_CM1_Load7
+dvLAMP_CM1_Unload8
+dvLAMP_CM1_Alarm9
+
+diPIN_CM1_Lock			OffOn	# for CASS type
+
+TM.CommStatus			-		1
+TM.AlarmStatus			AlarmSts	SYSTEM	0	0	600	899	1
+TM.VacuumStatus			VacStatus2
+TM.ROBOT_PAUSE_CONTROL
+dvPUMP_TM_Running		VacStatus1
+
+dpRB_HomeMode		HomeMode
+
+#---------------------------------------
+# MID Control
+#---------------------------------------
+dpMID_CM1_CONTROL		OnOff		# Function Control
+dpMID_CM1_OperateType		MID_RD_Mode
+#---------------------------------------
+# LoadPort Control
+#---------------------------------------
+dpLP_CM1_Control			OnOff
+dpLP_CM1_Unload_Clamp_Mode	Clmp_Mode
+dpLP_CM1_Unload_UpMapping	DisableEnable
+dpLP_CM1_Move_Timeout		-	*	*	-	-	-	-	-	0	120
+
+#---------------------------------------
+# Signal Tower
+#---------------------------------------
+dpTOWER_RED_PROCESS		OffOnBlink
+dpTOWER_GREEN_PROCESS		OffOnBlink
+dpTOWER_YELLOW_PROCESS		OffOnBlink
+
+dpTOWER_RED_NOT_CARRIER		OffOnBlink
+dpTOWER_GREEN_NOT_CARRIER	OffOnBlink
+dpTOWER_YELLOW_NOT_CARRIER	OffOnBlink
+
+dpTOWER_RED_CARRIER		OffOnBlink
+dpTOWER_GREEN_CARRIER		OffOnBlink
+dpTOWER_YELLOW_CARRIER		OffOnBlink
+
+dpTOWER_RED_ALARM		OffOnBlink
+dpTOWER_GREEN_ALARM		OffOnBlink
+dpTOWER_YELLOW_ALARM		OffOnBlink
+
+dpTOWER_RED_MAINT		OffOnBlink
+dpTOWER_GREEN_MAINT		OffOnBlink
+dpTOWER_YELLOW_MAINT		OffOnBlink
+
+dpTOWER_RED_ERROR		OffOnBlink
+dpTOWER_GREEN_ERROR		OffOnBlink
+dpTOWER_YELLOW_ERROR		OffOnBlink
+
+#---------------------------------------
+# RFID
+#---------------------------------------
+diRFID_CommStatus		HRFCommStatus	-	1	-	-	-	1
+diRFID_ErrorStatus		HRFErrStatus	-	2	-	-	-	1
+doRFID_Read				HRFPageRead	-	-	-	-	-	1	-  1	-	-	-
+doRFID_Trigger			HRFPageCtrl	-	-	-	-	-	1	-  2	-	-	-
+doRFID_Reset			HRFRunIntlk	-	-	-	-	-	1	-  3	-	-	-
+doRFID_PageLock			HRFPageRead	-	-	-	-	-	1	-  4	-	-	-
+
+$$$  String
+
+siRFID_Response1		-		1	1
+siRFID_Response2		-		2	1
+siRFID_Response3		-		3	1
+siRFID_Response4		-		4	1
+siRFID_Response5		-		5	1
+siRFID_Response6		-		6	1
+siRFID_Response7		-		7	1
+siRFID_Response8		-		8	1
+siRFID_Response9		-		9	1
+siRFID_Response10		-		10	1
+siRFID_Response11		-		11	1
+siRFID_Response12		-		12	1
+siRFID_Response13		-		13	1
+siRFID_Response14		-		14	1
+siRFID_Response15		-		15	1
+siRFID_Response16		-		16	1
+siRFID_Response17		-		17	1
+
+siRFID_Version			-		20	1
+
+soRFID_SendTag			-               -	1	-	1
+
+$$$ Analog
+#								|IN										|OUT
+#   Name				Units	Driver	ID1	ID2	ID3	Dec	Min	Max	Poll	Driver	ID1	ID2	ID3	Dec	Min	Max
+#   ----				-----	------	---	---	---	---	---	---	----	------		---	---	---	---	---	---
+apRB_Start_Spd_Move		mm/min	-		-	-	-	0	0	30	1		-		1	5	95	0	0	30
+apRB_dACC_Move			mm/min	-		-	-	-	0	0	300	1		-		1	5	96	0	0	300
+apRB_dDec_Move			mm/min	-		-	-	-	0	0	300	1		-		1	5	97	0	0	300
+apRB_Drive_Spd_Move		mm/min	-		-	-	-	0	0	150	1		-		1	5	98	0	0	150
+					
+apRB_Home_Spd0			mm/min	-		-	-	-	0	0	10	1		-		1	6	2	0	0	10
+apRB_Home_Spd1			mm/min	-		-	-	-	0	0	5	1		-		1	6	2	0	0	5
+apRB_Home_Spd2			mm/min	-		-	-	-	0	0	5	1		-		1	6	2	0	0	5
+apRB_Offset_Spd			mm/min	-		-	-	-	0	0	5	1		-		1	6	2	0	0	5
+
+apTM_Rotate_Timeout		/min/ms	-		-	-	-	0	0	100	1		-		-	-	-	0	0	100
+
+apRB_Pos_PM1			mm/min	-		-	-	-	0	0	1180 1		-		-	-	-	0	0	1180
+apRB_Pos_PM2			mm/min	-		-	-	-	0	0	1180 1		-		-	-	-	0	0	1180
+apRB_Pos_Indexer		mm/min	-		-	-	-	0	0	1180 1		-		-	-	-	0	0	1180
+apRB_Pos_Limit			mm/min	-		-	-	-	0	0	1180 1		-		-	-	-	0	0	1180
+
+$$$ Digital
+#----------------------------------------------------------------------------------------------------------------------------------
+#				IN								| OUT
+#------------			----		------	---	---	---	---	----	------	---	---	---	---
+#				Enum		Driver	ID1	ID2	ID3	ID4	Poll	Driver	ID1	ID2	ID3	ID4
+
+diLP_CM1_Comm_Status		LPCOMMSTS	-	0	0	-	-	1						              
+diLP_CM1_CommLog			OffOn		-	0	1	-	-	1	-	 0	1	-	-
+diLP_CM1_CommLogPrint		OffOn		-	0	2	-	-	1	-	 0	2	-	-	                         
+                            
+diLP_CM1_Clamp_Status		LPCLAMP    	-	1	 1	-	-	1
+diLP_CM1_Ready_Status		LPREADYSTS	-	1	 2	-	-	1
+diLP_CM1_Home_Status		LPHOMESTS	-	1	 3	-	-	1
+diLP_CM1_Shuttle_Status		LPPODPS	  	-	1	 4	-	-	1
+diLP_CM1_MAINT_MODE	  	OffOn		-	1	 5	-	-	1
+diLP_CM1_Door_Status			LPCLOPED	-	1	 6	-	-	1
+diLP_CM1_Present		OffOn		-	1	 7	-	-	1
+diLP_CM1_Placed			OffOn		-	1	 8	-	-	1
+diLP_CM1_Motor_Status		OffOn		-	1	 9	-	-	1
+diLP_CM1_Mapping_Function	OffOn		-	1	10	-	-	1
+diLP_CM1_AutoLamp		LPOFFONBLK	-	1	11	-	-	1
+diLP_CM1_LoadLamp		LPOFFONBLK	-	1	12	-	-	1
+diLP_CM1_UnloadLamp		LPOFFONBLK	-	1	13	-	-	1
+diLP_CM1_ManualLamp		LPOFFONBLK	-	1	14	-	-	1
+diLP_CM1_Mode			LPMODE	    	-	1	15	-	-	1
+diLP_CM1_Run_Status		LPRUNSTS	-	1	16	-	-	1
+diLP_CM1_Load_Button		LPPUSH		-	1	17	-	-	1
+diLP_CM1_Unload_Button		LPPUSH		-	1	18	-	-	1
+diLP_CM1_TPConnect_Status	LPTPCONNECT	-	1	19	-	-	1
+diLP_CM1_EmergencyStop		LPESTOP		-	1	20	-	-	1
+
+#-----------------------------------------------
+#--- Mapping Data
+#-----------------------------------------------
+
+diLP_CM1_Wfr01			LPMAPWFRINF	-  3	 1	-	-	1 
+diLP_CM1_Wfr02			LPMAPWFRINF	-  3	 2	-	-	1 
+diLP_CM1_Wfr03			LPMAPWFRINF	-  3	 3	-	-	1 
+diLP_CM1_Wfr04			LPMAPWFRINF	-  3	 4	-	-	1 
+diLP_CM1_Wfr05			LPMAPWFRINF	-  3	 5	-	-	1 
+diLP_CM1_Wfr06			LPMAPWFRINF	-  3	 6	-	-	1 
+diLP_CM1_Wfr07			LPMAPWFRINF	-  3	 7	-	-	1 
+diLP_CM1_Wfr08			LPMAPWFRINF	-  3	 8	-	-	1 
+diLP_CM1_Wfr09			LPMAPWFRINF	-  3	 9	-	-	1 
+diLP_CM1_Wfr10			LPMAPWFRINF	-  3	10	-	-	1 
+diLP_CM1_Wfr11			LPMAPWFRINF	-  3	11	-	-	1 
+diLP_CM1_Wfr12			LPMAPWFRINF	-  3	12	-	-	1 
+diLP_CM1_Wfr13			LPMAPWFRINF	-  3	13	-	-	1 
+diLP_CM1_Wfr14			LPMAPWFRINF	-  3	14	-	-	1 
+diLP_CM1_Wfr15			LPMAPWFRINF	-  3	15	-	-	1 
+diLP_CM1_Wfr16			LPMAPWFRINF	-  3	16	-	-	1 
+diLP_CM1_Wfr17			LPMAPWFRINF	-  3	17	-	-	1 
+diLP_CM1_Wfr18			LPMAPWFRINF	-  3	18	-	-	1 
+diLP_CM1_Wfr19			LPMAPWFRINF	-  3	19	-	-	1 
+diLP_CM1_Wfr20			LPMAPWFRINF	-  3	20	-	-	1 
+diLP_CM1_Wfr21			LPMAPWFRINF	-  3	21	-	-	1 
+diLP_CM1_Wfr22			LPMAPWFRINF	-  3	22	-	-	1 
+diLP_CM1_Wfr23			LPMAPWFRINF	-  3	23	-	-	1 
+diLP_CM1_Wfr24			LPMAPWFRINF	-  3	24	-	-	1 
+diLP_CM1_Wfr25			LPMAPWFRINF	-  3	25	-	-	1 
+diLP_CM1_Wfr26			LPMAPWFRINF	-  3	26	-	-	1  
+      
+#-----------------------------------------------
+# Load Port Control Command
+#-----------------------------------------------
+
+doLP_CM1_Docking		LPDCKING	-	-	-	-	-	1	-	 1	 1	-	-	# 전진 / 후진 (+Clamp)
+doLP_CM1_AlarmReset		LPRUN	  	-	-	-	-	-	1	-	 1	 2	-	-	# Alarm Reset
+doLP_CM1_Homing			OffOn	  	-	-	-	-	-	1	-	 1	 3	-	-	# Port Initialize
+doLP_CM1_Load			OffOn	  	-	-	-	-	-	1	-	 1	 4	-	-	# Loading / Unloading (+mapping)
+doLP_CM1_UnLoad			OffOn	  	-	-	-	-	-	1	-	 1	 5	-	-	# Loading / Unloading (+mapping??)
+doLP_CM1_Door_Ctrl		LPCLOP	 	-	-	-	-	-	1	-	 1	 6	-	-	# POD 존재하고 Foup Dock 상태에서만 유효 / Foup이 Advance가 아니면 NO_POD Error발생
+doLP_CM1_LatchKey		LPLOCK	 	-	-	-	-	-	1	-	 1	 7	-	-	# Latch Key Control
+doLP_CM1_Clamp			OffOn	 	-	-	-	-	-	1	-	 1	 8	-	-	# Clamp   Control
+doLP_CM1_UnClamp		OffOn	  	-	-	-	-	-	1	-	 1	 9	-	-	# UnClamp Control
+doLP_CM1_Vacuum_Ctrl	    	OffOn	   	-	-	-	-	-	1	-	 1	10	-	-	# Vacuum  Control
+doLP_CM1_Scan_Down    		OffOn	  	-	-	-	-	-	1	-	 1	11	-	-	# Scan Down Control
+doLP_CM1_Scan_Up  	  	OffOn	  	-	-	-	-	-	1	-	 1	12	-	-	# Scan Up Control
+doLP_CM1_TOPEN			OffOn	  	-	-	-	-	-	1	-	 1	13	-	-	# TCLOSE상태에서 Mapping없이 Door Open
+doLP_CM1_TCLOSE			OffOn	  	-	-	-	-	-	1	-	 1	14	-	-	# Load 유지한 상태에서 Door Close
+doLP_CM1_UpMappingEnable	OffOn		-	-	-	-	-	1	-	 1	15	-	-	# Unload시 UpMapping사용여부설정
+doLP_CM1_Motor_On		OffOn	   	-	-	-	-	-	1	-	 1	16	-	-	# Motor ON
+
+doLP_CM1_Load_Lamp		LPOFFONBLK	-	-	-	-	-	1	-	 2	1	-	-
+doLP_CM1_Unload_Lamp		LPOFFONBLK	-	-	-	-	-	1	-	 2	2	-	-
+doLP_CM1_Auto_Lamp		OffOn	    	-	-	-	-	-	1	-	 2	3	-	-
+doLP_CM1_Manual_Lamp	    	OffOn	    	-	-	-	-	-	1	-	 2	4	-	-
+doLP_CM1_Reserve_Lamp		LPOFFONBLK	-	-	-	-	-	1	-	 2	5	-	-
+
+#-----------------------------------------------
+#--- Port Mode Change ---------
+#-----------------------------------------------
+dioLP_CM1_OpMode		LPMODE	  	-	-	-	-	-	1	-	 4	0	-	-	 # AUTO / Manual / Maintenance Control
+
+#-----------------------------------------------
+# Last HW Error를 읽어온다. - TimeOut Error발생시 필요 ( 신,구버전 firmware동일 )
+#-----------------------------------------------
+doLP_CM1_LastAlarmFind		LPRUN		-	-	-	-	-	1	-	 5	1	-	-
+doLP_CM1_EventReset		LPRUN		-	-	-	-	-	1	-	 6	1	-	-	# Event 가 한번만 들어와 Data가 Driver 에 유지될 경우 Event Data 초기화 시 사용.
+
+#----------------------------------------------------------------------------------------------------------------------------------
+$$$ String
+#----------------------------------------------------------------------------------------------------------------------------------
+siLP_CM1_MappingData		-		2	1
+siLP_CM1_LastErrorNo		-		3	1
+siLP_CM1_LastErrorMessage	-		4	1
+
+$$$ Begin  Indexer
+
+$$$ Digital
+
+dvUpperSendAble			eOFFON
+dvUpperSendStart		eOFFON
+dvUpperSendComplete		eOFFON
+dvLowerRecvAble			eOFFON
+dvLowerRecvStart		eOFFON
+dvLowerRecvComplete		eOFFON
+
+$$$ End

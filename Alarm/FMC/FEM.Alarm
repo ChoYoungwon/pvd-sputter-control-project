@@ -1,0 +1,211 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# FM_ROBOT_CONTROL	501-530
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+501 FEM.ROBOT.COMM_ERROR {
+	"FM Robot Communication Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+502 FEM.ROBOT.NOT_HOME {
+	"FM Robot is not Home!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+503 FEM.ROBOT.ERROR {
+	"FM Robot has Error Code!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+504 FEM.ROBOT.RUNNING {
+	"FM Robot is Running!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+505 FEM.ROBOT.HOME_TIMEOUT {
+	"FM Robot Home Timeout Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+506 FEM.ROBOT.PICK_TIMEOUT {
+	"FM Robot Pick Timeout Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+507 FEM.ROBOT.PLACE_TIMEOUT {
+	"FM Robot Place Timeout Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+508 FEM.ROBOT.ROTATE_TIMEOUT {
+	"FM Robot Rotate Timeout Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+509 FEM.ROBOT.EXTEND_TIMEOUT {
+	"FM Robot Extend Timeout Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+510 FEM.ROBOT.RETRACT_TIMEOUT {
+	"FM Robot Retract Timeout Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+511 FEM.ROBOT.A_NOT_VACUUM_ERR {
+	"FM Robot (A) Arm is not Vacuum!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+512 FEM.ROBOT.A_VACUUM_ERR {
+	"FM Robot (A) Arm is Vacuum!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+513 FEM.ROBOT.B_NOT_VACUUM_ERR {
+	"FM Robot (B) Arm is not Vacuum!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+514 FEM.ROBOT.B_VACUUM_ERR {
+	"FM Robot'S (B) Arm is Vacuum!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+515 FEM.ROBOT.WAFER_PRESENT_ONARM {
+	"Wafer Present on the Arm!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+516 FEM.ROBOT.WAFER_ABSENT_ONARM {
+	"Wafer Absent on the Arm!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+517 FEM.ROBOT.WAFER_ABSENT_INSTATION {
+	"Wafer Absent in the Station!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+518 FEM.ROBOT.WAFER_PRESENT_INSTATION {
+	"Wafer Present in the Station!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+519 FEM.ROBOT.WAFER_UNKNOWN_INSTATION {
+	"Wafer Unknown in the Station!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+520 FEM.ROBOT.UNKNOWN_STATION {
+	"Unknown Station!"
+	CLEAR		"Clear"
+}
+
+521 FEM.ROBOT.ALARM_PAUSED {
+	"FM Robot is Paused!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# TMC_FM_ALIGNER_CONTROL	531-540
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+531 FEM.ALIGN.COMM_ERROR {
+	"FM Aligner Communication Error!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+532 FEM.ALIGN.TIMEOUT {
+	"FM Aligner Align Timeout!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+533 FEM.ALIGN.WAFER_NOT_EXIST {
+	"FM Aligner Wafer Absent!"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# FM_WAFER_CHECK_CONTROL	561-570
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+561 FEM.WFRSNS.ABS_PIC {
+	"Wafer is Present When FM Robot try to Pick the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+562 FEM.WFRSNS.PRS_PIC {
+	"Wafer is Absent After FM Robot try to Pick the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+563 FEM.WFRSNS.ABS_PLC {
+	"Wafer is Absent When FM Robot try to Place the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+564 FEM.WFRSNS.PRS_PLC {
+	"Wafer is Present After FM Robot try to Place the Wafer"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}

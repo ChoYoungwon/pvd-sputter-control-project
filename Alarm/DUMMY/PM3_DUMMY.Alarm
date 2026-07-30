@@ -1,0 +1,36 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# CLEAN_PROCESS_PM3	971-980
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+971 DUMMY.NOT.LOADED {
+	"Dummy Loadport was not loaded"
+	CLEAR		"Clear this Alarm"
+}
+
+972 DUMMY.NOT.MAPPED {
+	"Dummy Loadport was not mapped"
+	CLEAR		"Clear this Alarm"
+}
+
+973 DUMMY.NOT.WAFER {
+	"There is no Wafer in the dummy port"
+	CLEAR		"Clear this Alarm"
+}
+
+974 DUMMY.NOT.RECIPE {
+	"Dummy recipe is not set"
+	CLEAR		"Clear this Alarm"
+}
+
+975 DUMMY.NOT.EXIST.RECIPE {
+	"Dummy recipe does not exist"
+	CLEAR		"Clear this Alarm"
+}
+
+
+976 PM3.PROCESS.ABORTED {
+	"PM3 PROCESS ABORTED"
+	CLEAR		"PROCESS ABORTED-->"
+}

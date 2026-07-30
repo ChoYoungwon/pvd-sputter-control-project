@@ -1,0 +1,243 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# BM1	601-700
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+601 BM1.CASS.COMM_ERROR {
+	"BM1 Cassette Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+602 BM1.CASS.ERROR {
+	"BM1 Cassette Error Occur"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+603 BM1.CASS.HOME {
+	"BM1 Cassette Home Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+604 BM1.CASS.DOOR {
+	"BM1 Cassette Door Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+605 BM1.CASS.GOSLOT {
+	"BM1 Cassette GoSlot Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+606 BM1.CASS.GOLOAD {
+	"BM1 Cassette GoLoad Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+607 BM1.CASS.DCTWFR {
+	"BM1 Cassette DctWfr Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+608 BM1.CASS.PLATFORM {
+	"BM1 Cassette Platform Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+609 BM1.CASS.MAPPING {
+	"BM1 Cassette Mapping Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+610 BM1.CASS.DOOR2 {
+	"BM1 Cassette Door2 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+611 BM1.CASS.GOSLOT2 {
+	"BM1 Cassette GoSlot2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+612 BM1.CASS.GOLOAD2 {
+	"BM1 Cassette GoLoad2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+613 BM1.CASS.PLATFORM2 {
+	"BM1 Cassette Platform2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+614 BM1.CASS.SLIDEDCT {
+	"BM1 Cassette or Wafer Sliding Detect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+615 BM1.CASS.DI_Carrier {
+	"BM1 Cassette DI_Carrier not Present"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+616 BM1.CASS.NOT_WAFERON {
+	"BM1 Cassette has not Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+617 BM1.CASS.NOT_WAFEROFF {
+	"BM1 Cassette has a Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+631 BM1.S_VENT_TIMEOUT {
+	"BM1 Soft Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+632 BM1.F_VENT_TIMEOUT {
+	"BM1 Fast Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+633 BM1.S_PUMP_TIMEOUT {
+	"BM1 Soft Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+634 BM1.F_PUMP_TIMEOUT {
+	"BM1 Fast Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+635 BM1.ISO_CLOSE {
+	"BM1 Iso Valve Close Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+636 BM1.ISO_OPEN {
+	"BM1 Iso Valve Open Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+637 BM1.PUMP_READY_TIMEOUT {
+	"BM1 Pump Line Pressure not Ready"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+638 BM1.CHAMBER_NOT_VACUUM {
+	"BM1 Chamber is not Vacuum"
+	CLEAR		"Clear"
+}
+
+639 BM1.CHAMBER_NOT_ATM {
+	"BM1 Chamber is not ATM"
+	CLEAR		"Clear"
+}
+
+651 BM1.TP.PUMP_COMM_ERR {
+	"BM1 TurboPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+652 BM1.TP.PUMP_ON_ERR {
+	"BM1 TurboPump ON Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+653 BM1.TP.PUMP_OFF_ERR {
+	"BM1 TurboPump OFF Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+654 BM1.TP.PUMP_FAULT {
+	"BM1 TurboPump Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+655 BM1.TP.ERROR {
+	"BM1 TurboPump Low Speed or has a Error"
+	RETRY		"Retry Turbo On"
+	ABORT		"Pump Shutdown"
+	IGNORE		"Ignore Error"
+}
+
+
+658 BM1.PIN {
+	"BM1 Pin Operation Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+691 BM1.PUMPR.COMM_ERROR {
+	"BM1 RoughPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+692 BM1.PUMPR.PUMP_CTR_TMO {
+	"BM1 RoughPump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+

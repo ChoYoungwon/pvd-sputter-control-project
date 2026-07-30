@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# CTC GUI
+#-----------------------------------------------------------
+
+SCREEN_ALARM_MANAGER	99	K:/Exec/GUI_AlarmManager		RUN		""	"alarm/picture/picture.cfg|LABWNR"
+SCREEN_ALARM_HISTORY	99	K:/Exec/GUI_AlarmHistory		RUN		""	"FSEPMT||$/alarmdump:$/Alarmdumpfunction.cfg"
+
+SCREEN_IO_MANAGER		99	K:/Exec/GUI_IOManager			RUN		""	"N||18"
+
+SCREEN_USER_CONTROL		98	K:/Exec/GUI_Screen_User_Control	RUN	""	"GUI/Setup/User.cfg||||||GUI/Setup/Navigation_Level.cfg"
+
+SCREEN_STATUS			99	K:/Exec/GUI_Screen_Status2		RUN	""	"GUI/Screen_Layout/LayOut_Status/Screen_Status.cfg|GUI/Setup/User.cfg"
+SCREEN_BOTTOM			99	K:/Exec/GUI_Screen_Bottom		RUN	""	"GUI/Screen_Layout/LayOut_Bottom/Screen_Bottom.cfg"
+SCREEN_RIGHT			99	K:/Exec/GUI_Screen_Right		RUN	""	"GUI/Screen_Layout/LayOut_Right/Screen_Right.cfg"
+
+SCREEN_INIT				99	K:/Exec/Screen_Clear			RUN	""	"GUI/Screen_Layout/LayOut_ScrCls/Screen_Clear.dll"
+
+SCREEN_INDEXER			99	K:/Exec/GUI_Standard			RUN	""	"GUI/Screen_Indexer/Main.cfg"
+SCREEN_PM1				99	K:/Exec/GUI_Standard			RUN	""	"GUI/Screen_PM1/Main.cfg"
+SCREEN_PM2				99	K:/Exec/GUI_Standard			RUN	""	"GUI/Screen_PM2/Main.cfg"
+
+SCREEN_INTLKS_VIEWER	99	K:/Exec/GUI_IntlksViewer		RUN	""	""
+SCREEN_PLOT_VIEWER		99	K:/Exec/Gui_Plotter2			RUN	""	"History/Datalog/PLOTVIEW"
+SCREEN_OPERATE_LOG		99	K:/Exec/Gui_Operatelog			RUN	""	"History|NMT|3"
+
+SCREEN_RECIPE_LOT		98	K:/Exec/Gui_LotEditor			RUN	""	"Scheduler|PAVSIBGMR"
+SCREEN_DISPLAY_LOT		97  K:/Exec/Gui_LotEditor			RUN ""  "Scheduler|PASIBGMRD9"
+
+SCREEN_RECIPE_CLUSTER	98	K:/Exec/Gui_ClusterEditor60		RUN	""	"Scheduler|GBVSPRT|3|50"
+SCREEN_DISPLAY_CLUSTER	96  K:/Exec/Gui_ClusterEditor60		RUN	""	"Scheduler|GBVST9|3|50"
+
+SCREEN_RECIPE_PRCS_PM1	99	K:/Exec/Gui_RecipeEditor		RUN	""	"GUI/Screen_PM1/Screen.cfg|Recipe|Process\\PM1|GPK|GUI/Screen_PM1/Layout.cfg||PM1"
+SCREEN_RECIPE_PRCS_PM2	99	K:/Exec/Gui_RecipeEditor		RUN	""	"GUI/Screen_PM2/Screen.cfg|Recipe|Process\\PM2|GPK|GUI/Screen_PM2/Layout.cfg||PM2"

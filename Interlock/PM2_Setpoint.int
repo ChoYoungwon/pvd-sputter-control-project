@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Setpoint Interlock
+#-----------------------------------------------------------
+
+action ( doPVDDryPumpPower_LED == ON ) {
+		condition ( doPVDFastVentValve_LED == Open || doPVDSlowVentValve_LED == Open ) $alarm=961;
+}
+
+action ( doPVDTurboPumpPower_LED == ON ) {
+		condition ( doPVDFastVentValve_LED == Open || doPVDSlowVentValve_LED == Open ) $alarm = 962;
+}
+
+#action ( doPVDProcGasValve_LED == Open ) {
+#		condition ( avCvgGaugePressure >= apBasePressure) $alarm = 963;
+#}

@@ -1,0 +1,650 @@
+/////////////////////////////////////////////////////////////////////////////
+// GX6000 Image Library
+// Edit Date : 19-10-01
+////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////// 1000 : NoText Button Sample Image	 ///////////////
+B_1000_0000000000     	IMAGE        IMAGE/NoText_Button/NoText_Enable.png
+B_1000_0000000001     	IMAGE        IMAGE/NoText_Button/NoText_Press.png
+B_1000_0000000002     	IMAGE        IMAGE/NoText_Button/NoText_Disable.png
+
+/////////////////////// 1001~1500 : Button Image	 /////////////////////// 
+
+B_1001_0000000000     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Disable.png
+B_1001_0000000001     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Enable.png
+B_1001_0000000002     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Enable.png
+B_1001_0000000003     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Enable.png
+B_1001_0000000004     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Enable.png
+B_1001_0000000005     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Enable.png
+B_1001_0000000006     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Enable.png
+B_1001_0000000007     	IMAGE        IMAGE/GUINAV/00_Button_Abort_Enable.png
+
+B_1002_0000000000     	IMAGE        IMAGE/GUINAV/01_Main_Enable.png
+B_1002_0000000001     	IMAGE        IMAGE/GUINAV/01_Main_Press.png
+B_1002_0000000002     	IMAGE        IMAGE/GUINAV/01_Main_Disable.png
+
+B_1003_0000000000     	IMAGE        IMAGE/GUINAV/02_LotRecipe_Enable.png
+B_1003_0000000001     	IMAGE        IMAGE/GUINAV/02_LotRecipe_Press.png
+B_1003_0000000002     	IMAGE        IMAGE/GUINAV/02_LotRecipe_Disable.png
+
+B_1004_0000000000     	IMAGE        IMAGE/GUINAV/03_ClusterRecipe_Enable.png
+B_1004_0000000001     	IMAGE        IMAGE/GUINAV/03_ClusterRecipe_Press.png
+B_1004_0000000002     	IMAGE        IMAGE/GUINAV/03_ClusterRecipe_Disable.png
+
+B_1005_0000000000     	IMAGE        IMAGE/GUINAV/04_JobSch_Enable.png
+B_1005_0000000001     	IMAGE        IMAGE/GUINAV/04_JobSch_Press.png
+B_1005_0000000002     	IMAGE        IMAGE/GUINAV/04_JobSch_Disable.png
+
+B_1006_0000000000     	IMAGE        IMAGE/GUINAV/05_FAJob_Enable.png
+B_1006_0000000001     	IMAGE        IMAGE/GUINAV/05_FAJob_Press.png
+B_1006_0000000002     	IMAGE        IMAGE/GUINAV/05_FaJob_Disable.png 
+
+B_1007_0000000000     	IMAGE        IMAGE/GUINAV/06_Verification_Enable.png
+B_1007_0000000001     	IMAGE        IMAGE/GUINAV/06_Verification_Press.png
+B_1007_0000000002     	IMAGE        IMAGE/GUINAV/06_Verification_Disable.png
+
+B_1008_0000000000     	IMAGE        IMAGE/GUINAV/07_System_Enable.png
+B_1008_0000000001     	IMAGE        IMAGE/GUINAV/07_System_Press.png
+B_1008_0000000002     	IMAGE        IMAGE/GUINAV/07_System_Disable.png
+
+B_1009_0000000000     	IMAGE        IMAGE/GUINAV/08_Operate_Enable.png
+B_1009_0000000001     	IMAGE        IMAGE/GUINAV/08_Operate_Press.png
+B_1009_0000000002     	IMAGE        IMAGE/GUINAV/08_Operate_Disable.png
+
+B_1010_0000000000     	IMAGE        IMAGE/GUINAV/09_Recipe_Enable.png
+B_1010_0000000001     	IMAGE        IMAGE/GUINAV/09_Recipe_Press.png
+B_1010_0000000002     	IMAGE        IMAGE/GUINAV/09_Recipe_Disable.png
+
+B_1011_0000000000     	IMAGE        IMAGE/GUINAV/10_Service_Enable.png
+B_1011_0000000001     	IMAGE        IMAGE/GUINAV/10_Service_Press.png
+B_1011_0000000002     	IMAGE        IMAGE/GUINAV/10_Service_Disable.png
+
+B_1012_0000000000     	IMAGE        IMAGE/GUINAV/11_Config_Enable.png
+B_1012_0000000001     	IMAGE        IMAGE/GUINAV/11_Config_Press.png
+B_1012_0000000002     	IMAGE        IMAGE/GUINAV/11_Config_Disable.png
+
+B_1013_0000000000     	IMAGE        IMAGE/GUINAV/12_Utility_Enable.png
+B_1013_0000000001     	IMAGE        IMAGE/GUINAV/12_Utility_Press.png
+B_1013_0000000002     	IMAGE        IMAGE/GUINAV/12_Utility_Disable.png
+
+B_1014_0000000000     	IMAGE        IMAGE/GUINAV/13_Mode_Enable.png
+B_1014_0000000001     	IMAGE        IMAGE/GUINAV/13_Mode_Press.png
+B_1014_0000000002     	IMAGE        IMAGE/GUINAV/13_Mode_Disable.png
+
+B_1015_0000000000     	IMAGE        IMAGE/GUINAV/14_AlarmHistory_Enable.png
+B_1015_0000000001     	IMAGE        IMAGE/GUINAV/14_AlarmHistory_Press.png
+B_1015_0000000002     	IMAGE        IMAGE/GUINAV/14_AlarmHistory_Disable.png
+
+B_1016_0000000000     	IMAGE        IMAGE/GUINAV/15_Calibration_Enable.png
+B_1016_0000000001     	IMAGE        IMAGE/GUINAV/15_Calibration_Press.png
+B_1016_0000000002     	IMAGE        IMAGE/GUINAV/15_Calibration_Disable.png
+
+B_1017_0000000000     	IMAGE        IMAGE/GUINAV/16_CTCConfig_Enable.png
+B_1017_0000000001     	IMAGE        IMAGE/GUINAV/16_CTCConfig_Press.png
+B_1017_0000000002     	IMAGE        IMAGE/GUINAV/16_CTCConfig_Disable.png
+
+B_1018_0000000000     	IMAGE        IMAGE/GUINAV/17_Direct_IO_Enable.png
+B_1018_0000000001     	IMAGE        IMAGE/GUINAV/17_Direct_IO_Press.png
+B_1018_0000000002     	IMAGE        IMAGE/GUINAV/17_Direct_IO_Disable.png
+
+B_1019_0000000000     	IMAGE        IMAGE/GUINAV/18_FA_Enable.png
+B_1019_0000000001     	IMAGE        IMAGE/GUINAV/18_FA_Press.png
+B_1019_0000000002     	IMAGE        IMAGE/GUINAV/18_FA_Disable.png
+
+B_1020_0000000000     	IMAGE        IMAGE/GUINAV/19_FAConfig_Enable.png
+B_1020_0000000001     	IMAGE        IMAGE/GUINAV/19_FAConfig_Press.png
+B_1020_0000000002     	IMAGE        IMAGE/GUINAV/19_FAConfig_Disable.png
+
+B_1021_0000000000     	IMAGE        IMAGE/GUINAV/20_FAJob_Enable.png
+B_1021_0000000001     	IMAGE        IMAGE/GUINAV/20_FAJob_Press.png
+B_1021_0000000002     	IMAGE        IMAGE/GUINAV/20_FAJob_Disable.png
+
+B_1022_0000000000     	IMAGE        IMAGE/GUINAV/21_History_Enable.png
+B_1022_0000000001     	IMAGE        IMAGE/GUINAV/21_History_Press.png
+B_1022_0000000002     	IMAGE        IMAGE/GUINAV/21_History_Disable.png
+
+B_1023_0000000000     	IMAGE        IMAGE/GUINAV/22_JobHistory_Enable.png
+B_1023_0000000001     	IMAGE        IMAGE/GUINAV/22_JobHistory_Press.png
+B_1023_0000000002     	IMAGE        IMAGE/GUINAV/22_JobHistory_Disable.png
+
+B_1024_0000000000     	IMAGE        IMAGE/GUINAV/23_LeakCheck_Enable.png
+B_1024_0000000001     	IMAGE        IMAGE/GUINAV/23_LeakCheck_Press.png
+B_1024_0000000002     	IMAGE        IMAGE/GUINAV/23_LeakCheck_Disable.png
+
+B_1025_0000000000     	IMAGE        IMAGE/GUINAV/24_LogOut_Enable.png
+B_1025_0000000001     	IMAGE        IMAGE/GUINAV/24_LogOut_Press.png
+B_1025_0000000002     	IMAGE        IMAGE/GUINAV/24_LogOut_Disable.png
+
+B_1026_0000000000     	IMAGE        IMAGE/GUINAV/25_Gas_Enable.png
+B_1026_0000000001     	IMAGE        IMAGE/GUINAV/25_Gas_Press.png
+B_1026_0000000002     	IMAGE        IMAGE/GUINAV/25_Gas_Disable.png
+
+B_1027_0000000000     	IMAGE        IMAGE/GUINAV/26_Maint_Enable.png
+B_1027_0000000001     	IMAGE        IMAGE/GUINAV/26_Maint_Press.png
+B_1027_0000000002     	IMAGE        IMAGE/GUINAV/26_Maint_Disable.png
+
+B_1028_0000000000     	IMAGE        IMAGE/GUINAV/27_Manual_Enable.png
+B_1028_0000000001     	IMAGE        IMAGE/GUINAV/27_Manual_Press.png
+B_1028_0000000002     	IMAGE        IMAGE/GUINAV/27_Manual_Disable.png
+
+B_1029_0000000000     	IMAGE        IMAGE/GUINAV/27_Manual2_Enable.png
+B_1029_0000000001     	IMAGE        IMAGE/GUINAV/27_Manual2_Press.png
+B_1029_0000000002     	IMAGE        IMAGE/GUINAV/27_Manual2_Disable.png
+
+B_1030_0000000000     	IMAGE        IMAGE/GUINAV/27_Manual3_Enable.png
+B_1030_0000000001     	IMAGE        IMAGE/GUINAV/27_Manual3_Press.png
+B_1030_0000000002     	IMAGE        IMAGE/GUINAV/27_Manual3_Disable.png
+
+B_1031_0000000000     	IMAGE        IMAGE/GUINAV/29_PM1_Enable.png
+B_1031_0000000001     	IMAGE        IMAGE/GUINAV/29_PM1_Press.png
+B_1031_0000000002     	IMAGE        IMAGE/GUINAV/29_PM1_Disable.png
+
+B_1032_0000000000     	IMAGE        IMAGE/GUINAV/30_PM2_Enable.png
+B_1032_0000000001     	IMAGE        IMAGE/GUINAV/30_PM2_Press.png
+B_1032_0000000002     	IMAGE        IMAGE/GUINAV/30_PM2_Disable.png
+
+B_1033_0000000000     	IMAGE        IMAGE/GUINAV/31_PM3_Enable.png
+B_1033_0000000001     	IMAGE        IMAGE/GUINAV/31_PM3_Press.png
+B_1033_0000000002     	IMAGE        IMAGE/GUINAV/31_PM3_Disable.png
+
+B_1034_0000000000     	IMAGE        IMAGE/GUINAV/32_PM4_Enable.png
+B_1034_0000000001     	IMAGE        IMAGE/GUINAV/32_PM4_Press.png
+B_1034_0000000002     	IMAGE        IMAGE/GUINAV/32_PM4_Disable.png
+
+B_1035_0000000000     	IMAGE        IMAGE/GUINAV/33_PM5_Enable.png
+B_1035_0000000001     	IMAGE        IMAGE/GUINAV/33_PM5_Press.png
+B_1035_0000000002     	IMAGE        IMAGE/GUINAV/33_PM5_Disable.png
+
+B_1036_0000000000     	IMAGE        IMAGE/GUINAV/34_PM6_Enable.png
+B_1036_0000000001     	IMAGE        IMAGE/GUINAV/34_PM6_Press.png
+B_1036_0000000002     	IMAGE        IMAGE/GUINAV/34_PM6_Disable.png
+
+B_1037_0000000000     	IMAGE        IMAGE/GUINAV/35_Recovery_Enable.png
+B_1037_0000000001     	IMAGE        IMAGE/GUINAV/35_Recovery_Press.png
+B_1037_0000000002     	IMAGE        IMAGE/GUINAV/35_Recovery_Disable.png
+
+B_1038_0000000000     	IMAGE        IMAGE/GUINAV/36_Monitor_Enable.png
+B_1038_0000000001     	IMAGE        IMAGE/GUINAV/36_Monitor_Press.png
+B_1038_0000000002     	IMAGE        IMAGE/GUINAV/36_Monitor_Disable.png
+
+B_1039_0000000000     	IMAGE        IMAGE/GUINAV/36_Monitor2_Enable.png
+B_1039_0000000001     	IMAGE        IMAGE/GUINAV/36_Monitor2_Press.png
+B_1039_0000000002     	IMAGE        IMAGE/GUINAV/36_Monitor2_Disable.png
+
+B_1040_0000000000     	IMAGE        IMAGE/GUINAV/36_Monitor3_Enable.png
+B_1040_0000000001     	IMAGE        IMAGE/GUINAV/36_Monitor3_Press.png
+B_1040_0000000002     	IMAGE        IMAGE/GUINAV/36_Monitor3_Disable.png
+
+B_1041_0000000000     	IMAGE        IMAGE/GUINAV/37_OnlineLog_Enable.png
+B_1041_0000000001     	IMAGE        IMAGE/GUINAV/37_OnlineLog_Press.png
+B_1041_0000000002     	IMAGE        IMAGE/GUINAV/37_OnlineLog_Disable.png
+
+B_1042_0000000000     	IMAGE        IMAGE/GUINAV/38_OperateLog_Enable.png
+B_1042_0000000001     	IMAGE        IMAGE/GUINAV/38_OperateLog_Press.png
+B_1042_0000000002     	IMAGE        IMAGE/GUINAV/38_OperateLog_Disable.png
+
+B_1043_0000000000     	IMAGE        IMAGE/GUINAV/39_Parameter_Enable.png
+B_1043_0000000001     	IMAGE        IMAGE/GUINAV/39_Parameter_Press.png
+B_1043_0000000002     	IMAGE        IMAGE/GUINAV/39_Parameter_Disable.png
+
+B_1044_0000000000     	IMAGE        IMAGE/GUINAV/39_Parameter2_Enable.png
+B_1044_0000000001     	IMAGE        IMAGE/GUINAV/39_Parameter2_Press.png
+B_1044_0000000002     	IMAGE        IMAGE/GUINAV/39_Parameter2_Disable.png
+
+B_1045_0000000000     	IMAGE        IMAGE/GUINAV/39_Parameter3_Enable.png
+B_1045_0000000001     	IMAGE        IMAGE/GUINAV/39_Parameter3_Press.png
+B_1045_0000000002     	IMAGE        IMAGE/GUINAV/39_Parameter3_Disable.png
+
+B_1046_0000000000     	IMAGE        IMAGE/GUINAV/40_Plotter_Enable.png
+B_1046_0000000001     	IMAGE        IMAGE/GUINAV/40_Plotter_Press.png
+B_1046_0000000002     	IMAGE        IMAGE/GUINAV/40_Plotter_Disable.png
+
+B_1047_0000000000     	IMAGE        IMAGE/GUINAV/41_Pressure_Enable.png
+B_1047_0000000001     	IMAGE        IMAGE/GUINAV/41_Pressure_Press.png
+B_1047_0000000002     	IMAGE        IMAGE/GUINAV/41_Pressure_Disable.png
+
+B_1048_0000000000     	IMAGE        IMAGE/GUINAV/41_Pressure2_Enable.png
+B_1048_0000000001     	IMAGE        IMAGE/GUINAV/41_Pressure2_Press.png
+B_1048_0000000002     	IMAGE        IMAGE/GUINAV/41_Pressure2_Disable.png
+
+B_1049_0000000000     	IMAGE        IMAGE/GUINAV/41_Pressure3_Enable.png
+B_1049_0000000001     	IMAGE        IMAGE/GUINAV/41_Pressure3_Press.png
+B_1049_0000000002     	IMAGE        IMAGE/GUINAV/41_Pressure3_Disable.png
+
+B_1050_0000000000     	IMAGE        IMAGE/GUINAV/42_Process_Enable.png
+B_1050_0000000001     	IMAGE        IMAGE/GUINAV/42_Process_Press.png
+B_1050_0000000002     	IMAGE        IMAGE/GUINAV/42_Process_Disable.png
+
+B_1051_0000000000     	IMAGE        IMAGE/GUINAV/43_PRocessRCP_Enable.png
+B_1051_0000000001     	IMAGE        IMAGE/GUINAV/43_PRocessRCP_Press.png
+B_1051_0000000002     	IMAGE        IMAGE/GUINAV/43_PRocessRCP_Disable.png
+
+B_1052_0000000000     	IMAGE        IMAGE/GUINAV/44_Robot_Enable.png
+B_1052_0000000001     	IMAGE        IMAGE/GUINAV/44_Robot_Press.png
+B_1052_0000000002     	IMAGE        IMAGE/GUINAV/44_Robot_Disable.png
+
+B_1053_0000000000     	IMAGE        IMAGE/GUINAV/44_Robot2_Enable.png
+B_1053_0000000001     	IMAGE        IMAGE/GUINAV/44_Robot2_Press.png
+B_1053_0000000002     	IMAGE        IMAGE/GUINAV/44_Robot2_Disable.png
+
+B_1054_0000000000     	IMAGE        IMAGE/GUINAV/44_Robot3_Enable.png
+B_1054_0000000001     	IMAGE        IMAGE/GUINAV/44_Robot3_Press.png
+B_1054_0000000002     	IMAGE        IMAGE/GUINAV/44_Robot3_Disable.png
+
+B_1055_0000000000     	IMAGE        IMAGE/GUINAV/45_Setting_Enable.png
+B_1055_0000000001     	IMAGE        IMAGE/GUINAV/45_Setting_Press.png
+B_1055_0000000002     	IMAGE        IMAGE/GUINAV/45_Setting_Disable.png
+
+B_1056_0000000000     	IMAGE        IMAGE/GUINAV/46_Status_Enable.png
+B_1056_0000000001     	IMAGE        IMAGE/GUINAV/46_Status_Press.png
+B_1056_0000000002     	IMAGE        IMAGE/GUINAV/46_Status_Disable.png
+
+B_1057_0000000000     	IMAGE        IMAGE/GUINAV/47_SystemAlignment_Enable.png
+B_1057_0000000001     	IMAGE        IMAGE/GUINAV/47_SystemAlignment_Press.png
+B_1057_0000000002     	IMAGE        IMAGE/GUINAV/47_SystemAlignment_Disable.png
+
+B_1058_0000000000     	IMAGE        IMAGE/GUINAV/48_Temp_Enable.png
+B_1058_0000000001     	IMAGE        IMAGE/GUINAV/48_Temp_Press.png
+B_1058_0000000002     	IMAGE        IMAGE/GUINAV/48_Temp_Disable.png
+
+B_1059_0000000000     	IMAGE        IMAGE/GUINAV/48_Temp2_Enable.png
+B_1059_0000000001     	IMAGE        IMAGE/GUINAV/48_Temp2_Press.png
+B_1059_0000000002     	IMAGE        IMAGE/GUINAV/48_Temp2_Disable.png
+
+B_1060_0000000000     	IMAGE        IMAGE/GUINAV/48_Temp3_Enable.png
+B_1060_0000000001     	IMAGE        IMAGE/GUINAV/48_Temp3_Press.png
+B_1060_0000000002     	IMAGE        IMAGE/GUINAV/48_Temp3_Disable.png
+
+B_1061_0000000000     	IMAGE        IMAGE/GUINAV/48_Temperature_Enable.png
+B_1061_0000000001     	IMAGE        IMAGE/GUINAV/48_Temperature_Press.png
+B_1061_0000000002     	IMAGE        IMAGE/GUINAV/48_Temperature_Disable.png
+
+B_1062_0000000000     	IMAGE        IMAGE/GUINAV/49_Transfer_Enable.png
+B_1062_0000000001     	IMAGE        IMAGE/GUINAV/49_Transfer_Press.png
+B_1062_0000000002     	IMAGE        IMAGE/GUINAV/49_Transfer_Disable.png
+
+B_1063_0000000000     	IMAGE        IMAGE/GUINAV/50_User_Enable.png
+B_1063_0000000001     	IMAGE        IMAGE/GUINAV/50_User_Press.png
+B_1063_0000000002     	IMAGE        IMAGE/GUINAV/50_User_Disable.png
+
+B_1064_0000000000     	IMAGE        IMAGE/GUINAV/51_Vac_Enable.png
+B_1064_0000000001     	IMAGE        IMAGE/GUINAV/51_Vac_Press.png
+B_1064_0000000002     	IMAGE        IMAGE/GUINAV/51_Vac_Disable.png
+
+B_1065_0000000000     	IMAGE        IMAGE/GUINAV/51_Vac2_Enable.png
+B_1065_0000000001     	IMAGE        IMAGE/GUINAV/51_Vac2_Press.png
+B_1065_0000000002     	IMAGE        IMAGE/GUINAV/51_Vac2_Disable.png
+
+B_1066_0000000000     	IMAGE        IMAGE/GUINAV/51_Vac3_Enable.png
+B_1066_0000000001     	IMAGE        IMAGE/GUINAV/51_Vac3_Press.png
+B_1066_0000000002     	IMAGE        IMAGE/GUINAV/51_Vac3_Disable.png
+
+B_1067_0000000000     	IMAGE        IMAGE/GUINAV/51_Vacuum_Enable.png
+B_1067_0000000001     	IMAGE        IMAGE/GUINAV/51_Vacuum_Press.png
+B_1067_0000000002     	IMAGE        IMAGE/GUINAV/51_Vacuum_Disable.png
+
+B_1068_0000000000     	IMAGE        IMAGE/GUINAV/52_WaferSynch_Enable.png
+B_1068_0000000001     	IMAGE        IMAGE/GUINAV/52_WaferSynch_Press.png
+B_1068_0000000002     	IMAGE        IMAGE/GUINAV/52_WaferSynch_Disable.png
+
+B_1069_0000000000     	IMAGE        IMAGE/GUINAV/53_MFC_Cal_Enable.png
+B_1069_0000000001     	IMAGE        IMAGE/GUINAV/53_MFC_Cal_Press.png
+B_1069_0000000002     	IMAGE        IMAGE/GUINAV/53_MFC_Cal_Disable.png
+
+B_1070_0000000000     	IMAGE        IMAGE/GUINAV/54_RF_Cal_Enable.png
+B_1070_0000000001     	IMAGE        IMAGE/GUINAV/54_RF_Cal_Press.png
+B_1070_0000000002     	IMAGE        IMAGE/GUINAV/54_RF_Cal_Disable.png
+
+B_1071_0000000000     	IMAGE        IMAGE/GUINAV/55_AutoLeak_Enable.png
+B_1071_0000000001     	IMAGE        IMAGE/GUINAV/55_AutoLeak_Press.png
+B_1071_0000000002     	IMAGE        IMAGE/GUINAV/55_AutoLeak_Disable.png
+
+B_1072_0000000000     	IMAGE        IMAGE/GUINAV/56_CTC_Enable.png
+B_1072_0000000001     	IMAGE        IMAGE/GUINAV/56_CTC_Press.png
+B_1072_0000000002     	IMAGE        IMAGE/GUINAV/56_CTC_Disable.png
+
+B_1073_0000000000     	IMAGE        IMAGE/GUINAV/57_TMC_Enable.png
+B_1073_0000000001     	IMAGE        IMAGE/GUINAV/57_TMC_Press.png
+B_1073_0000000002     	IMAGE        IMAGE/GUINAV/57_TMC_Disable.png
+
+B_1074_0000000000     	IMAGE        IMAGE/GUINAV/58_Alarm_Enable.png
+B_1074_0000000001     	IMAGE        IMAGE/GUINAV/58_Alarm_Press.png
+B_1074_0000000002     	IMAGE        IMAGE/GUINAV/58_Alarm_Disable.png
+
+B_1075_0000000000     	IMAGE        IMAGE/GUINAV/59_Leak_Enable.png
+B_1075_0000000001     	IMAGE        IMAGE/GUINAV/59_Leak_Press.png
+B_1075_0000000002     	IMAGE        IMAGE/GUINAV/59_Leak_Disable.png
+
+//CTC.All_ControlStatus : Enable Init(All) Image
+B_1076_0000000000     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000001     	IMAGE        IMAGE/GUINAV/60_Init_Enable.png
+B_1076_0000000002     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000003     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000004     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000005     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000006     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000007     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000008     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000009     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000010     	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+B_1076_0000000011	    	IMAGE        IMAGE/GUINAV/60_Init_Disable.png
+
+//CTC.All_ControlStatus : Enable Stanby Image
+B_1077_0000000000     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000001     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000002     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000003     	IMAGE        IMAGE/GUINAV/61_Standby_Enable.png
+B_1077_0000000004     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000005     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000006     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000007     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000008     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000009     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000010     	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+B_1077_0000000011	    	IMAGE        IMAGE/GUINAV/61_Standby_Disable.png
+
+//CTC.All_ControlStatus : Enable Maint Image
+B_1078_0000000000     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000001     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000002     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000003     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000004     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000005     	IMAGE        IMAGE/GUINAV/62_Maint_Enable.png
+B_1078_0000000006     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000007     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000008     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000009     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000010     	IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+B_1078_0000000011	    IMAGE        IMAGE/GUINAV/62_Maint_Disable.png
+
+//CTC.All_ControlStatus : Enable Abort Image
+B_1079_0000000000     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000001     	IMAGE        IMAGE/GUINAV/63_Abort_Enable.png
+B_1079_0000000002     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000003     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000004     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000005     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000006     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000007     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000008     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000009     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000010     	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+B_1079_0000000011	   	IMAGE        IMAGE/GUINAV/63_Abort_Disable.png
+
+
+B_1080_0000000000     	IMAGE        IMAGE/GUINAV/64_Interlock_Viewer_Enable.png
+B_1080_0000000001     	IMAGE        IMAGE/GUINAV/64_Interlock_Viewer_Press.png
+B_1080_0000000002     	IMAGE        IMAGE/GUINAV/64_Interlock_Viewer_Disable.png
+
+B_1081_0000000000     	IMAGE        IMAGE/GUINAV/65_AlarmManager_Enable.png
+B_1081_0000000001     	IMAGE        IMAGE/GUINAV/65_AlarmManager_Press.png
+B_1081_0000000002     	IMAGE        IMAGE/GUINAV/65_AlarmManager_Disable.png
+
+B_1082_0000000000     	IMAGE        IMAGE/GUINAV/66_RecipeGroup_Enable.png
+B_1082_0000000001     	IMAGE        IMAGE/GUINAV/66_RecipeGroup_Press.png
+B_1082_0000000002     	IMAGE        IMAGE/GUINAV/66_RecipeGroup_Disable.png
+
+B_1083_0000000000		IMAGE		 IMAGE/GUINAV/67_GlassSynch_Enable.png
+B_1083_0000000001		IMAGE		 IMAGE/GUINAV/67_GlassSynch_Press.png
+B_1083_0000000002		IMAGE		 IMAGE/GUINAV/67_GlassSynch_Disable.png
+
+/////////////////////// 1601~1800 : Navigation Button Image	 /////////////////////// 
+
+B_1601_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/1_Enable.png
+B_1601_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/1_Press.png
+B_1601_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/1_Disable.png
+B_1602_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/2_Enable.png
+B_1602_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/2_Press.png
+B_1602_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/2_Disable.png
+B_1603_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/3_Enable.png
+B_1603_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/3_Press.png
+B_1603_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/3_Disable.png
+B_1604_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/4_Enable.png
+B_1604_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/4_Press.png
+B_1604_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/4_Disable.png
+B_1605_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/5_Enable.png
+B_1605_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/5_Press.png
+B_1605_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/5_Disable.png
+B_1606_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/6_Enable.png
+B_1606_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/6_Press.png
+B_1606_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/6_Disable.png
+B_1607_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/7_Enable.png
+B_1607_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/7_Press.png
+B_1607_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/7_Disable.png
+B_1608_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/8_Enable.png
+B_1608_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/8_Press.png
+B_1608_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/8_Disable.png
+B_1609_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/9_Enable.png
+B_1609_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/9_Press.png
+B_1609_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/9_Disable.png
+B_1610_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/10_Enable.png
+B_1610_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/10_Press.png
+B_1610_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/10_Disable.png
+
+B_1611_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/11_Enable.png
+B_1611_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/11_Press.png
+B_1611_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/11_Disable.png
+B_1612_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/12_Enable.png
+B_1612_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/12_Press.png
+B_1612_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/12_Disable.png
+B_1613_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/13_Enable.png
+B_1613_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/13_Press.png
+B_1613_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/13_Disable.png
+B_1614_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/14_Enable.png
+B_1614_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/14_Press.png
+B_1614_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/14_Disable.png
+B_1615_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/15_Enable.png
+B_1615_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/15_Press.png
+B_1615_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/15_Disable.png
+B_1616_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/16_Enable.png
+B_1616_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/16_Press.png
+B_1616_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/16_Disable.png
+B_1617_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/17_Enable.png
+B_1617_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/17_Press.png
+B_1617_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/17_Disable.png
+B_1618_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/18_Enable.png
+B_1618_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/18_Press.png
+B_1618_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/18_Disable.png
+B_1619_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/19_Enable.png
+B_1619_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/19_Press.png
+B_1619_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/19_Disable.png
+B_1620_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/20_Enable.png
+B_1620_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/20_Press.png
+B_1620_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/20_Disable.png
+
+B_1621_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/21_Enable.png
+B_1621_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/21_Press.png
+B_1621_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/21_Disable.png
+B_1622_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/22_Enable.png
+B_1622_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/22_Press.png
+B_1622_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/22_Disable.png
+B_1623_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/23_Enable.png
+B_1623_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/23_Press.png
+B_1623_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/23_Disable.png
+B_1624_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/24_Enable.png
+B_1624_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/24_Press.png
+B_1624_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/24_Disable.png
+B_1625_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/25_Enable.png
+B_1625_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/25_Press.png
+B_1625_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/25_Disable.png
+B_1626_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/26_Enable.png
+B_1626_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/26_Press.png
+B_1626_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/26_Disable.png
+B_1627_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/27_Enable.png
+B_1627_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/27_Press.png
+B_1627_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/27_Disable.png
+B_1628_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/28_Enable.png
+B_1628_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/28_Press.png
+B_1628_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/28_Disable.png
+B_1629_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/29_Enable.png
+B_1629_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/29_Press.png
+B_1629_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/29_Disable.png
+B_1630_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/30_Enable.png
+B_1630_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/30_Press.png
+B_1630_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/30_Disable.png
+
+B_1631_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/31_Enable.png
+B_1631_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/31_Press.png
+B_1631_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/31_Disable.png
+B_1632_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/32_Enable.png
+B_1632_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/32_Press.png
+B_1632_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/32_Disable.png
+B_1633_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/33_Enable.png
+B_1633_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/33_Press.png
+B_1633_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/33_Disable.png
+B_1634_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/34_Enable.png
+B_1634_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/34_Press.png
+B_1634_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/34_Disable.png
+B_1635_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/35_Enable.png
+B_1635_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/35_Press.png
+B_1635_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/35_Disable.png
+B_1636_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/36_Enable.png
+B_1636_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/36_Press.png
+B_1636_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/36_Disable.png
+B_1637_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/37_Enable.png
+B_1637_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/37_Press.png
+B_1637_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/37_Disable.png
+B_1638_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/38_Enable.png
+B_1638_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/38_Press.png
+B_1638_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/38_Disable.png
+B_1639_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/39_Enable.png
+B_1639_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/39_Press.png
+B_1639_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/39_Disable.png
+B_1640_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/40_Enable.png
+B_1640_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/40_Press.png
+B_1640_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/40_Disable.png
+
+B_1641_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/41_Enable.png
+B_1641_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/41_Press.png
+B_1641_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/41_Disable.png
+B_1642_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/42_Enable.png
+B_1642_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/42_Press.png
+B_1642_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/42_Disable.png
+B_1643_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/43_Enable.png
+B_1643_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/43_Press.png
+B_1643_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/43_Disable.png
+B_1644_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/44_Enable.png
+B_1644_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/44_Press.png
+B_1644_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/44_Disable.png
+B_1645_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/45_Enable.png
+B_1645_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/45_Press.png
+B_1645_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/45_Disable.png
+B_1646_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/46_Enable.png
+B_1646_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/46_Press.png
+B_1646_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/46_Disable.png
+B_1647_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/47_Enable.png
+B_1647_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/47_Press.png
+B_1647_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/47_Disable.png
+B_1648_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/48_Enable.png
+B_1648_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/48_Press.png
+B_1648_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/48_Disable.png
+B_1649_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/49_Enable.png
+B_1649_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/49_Press.png
+B_1649_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/49_Disable.png
+B_1650_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/50_Enable.png
+B_1650_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/50_Press.png
+B_1650_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/50_Disable.png
+
+B_1661_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/61_Enable.png
+B_1661_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/61_Press.png
+B_1661_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/61_Disable.png
+B_1662_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/62_Enable.png
+B_1662_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/62_Press.png
+B_1662_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/62_Disable.png
+B_1663_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/63_Enable.png
+B_1663_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/63_Press.png
+B_1663_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/63_Disable.png
+B_1664_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/64_Enable.png
+B_1664_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/64_Press.png
+B_1664_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/64_Disable.png
+B_1665_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/65_Enable.png
+B_1665_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/65_Press.png
+B_1665_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/65_Disable.png
+B_1666_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/66_Enable.png
+B_1666_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/66_Press.png
+B_1666_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/66_Disable.png
+B_1667_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/67_Enable.png
+B_1667_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/67_Press.png
+B_1667_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/67_Disable.png
+B_1668_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/68_Enable.png
+B_1668_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/68_Press.png
+B_1668_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/68_Disable.png
+B_1669_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/69_Enable.png
+B_1669_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/69_Press.png
+B_1669_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/69_Disable.png
+B_1660_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/60_Enable.png
+B_1660_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/60_Press.png
+B_1660_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/60_Disable.png
+
+B_1671_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/71_Enable.png
+B_1671_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/71_Press.png
+B_1671_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/71_Disable.png
+B_1672_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/72_Enable.png
+B_1672_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/72_Press.png
+B_1672_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/72_Disable.png
+B_1673_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/73_Enable.png
+B_1673_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/73_Press.png
+B_1673_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/73_Disable.png
+B_1674_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/74_Enable.png
+B_1674_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/74_Press.png
+B_1674_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/74_Disable.png
+B_1675_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/75_Enable.png
+B_1675_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/75_Press.png
+B_1675_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/75_Disable.png
+B_1676_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/76_Enable.png
+B_1676_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/76_Press.png
+B_1676_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/76_Disable.png
+B_1677_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/77_Enable.png
+B_1677_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/77_Press.png
+B_1677_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/77_Disable.png
+B_1678_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/78_Enable.png
+B_1678_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/78_Press.png
+B_1678_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/78_Disable.png
+B_1679_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/79_Enable.png
+B_1679_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/79_Press.png
+B_1679_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/79_Disable.png
+B_1680_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/80_Enable.png
+B_1680_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/80_Press.png
+B_1680_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/80_Disable.png
+
+B_1681_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/81_Enable.png
+B_1681_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/81_Press.png
+B_1681_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/81_Disable.png
+B_1682_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/82_Enable.png
+B_1682_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/82_Press.png
+B_1682_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/82_Disable.png
+B_1683_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/83_Enable.png
+B_1683_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/83_Press.png
+B_1683_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/83_Disable.png
+B_1684_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/84_Enable.png
+B_1684_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/84_Press.png
+B_1684_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/84_Disable.png
+B_1685_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/85_Enable.png
+B_1685_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/85_Press.png
+B_1685_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/85_Disable.png
+
+B_1686_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/86_Enable.png
+B_1686_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/86_Press.png
+B_1686_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/86_Disable.png
+
+/////////////////////// 1751~1800 : Navigation Bar Button Image	 /////////////////////// 
+B_1751_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/2_Enable.png
+B_1751_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/2_Enable.png
+B_1751_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/3_Enable.png
+//B_1751_0000000003     	IMAGE        IMAGE/GUINAV/Navi_Button/4_Enable.png
+
+B_1752_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/8_Enable.png
+B_1752_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/2_Enable.png
+B_1752_0000000003     	IMAGE        IMAGE/GUINAV/Navi_Button/3_Enable.png
+//B_1752_0000000004     	IMAGE        IMAGE/GUINAV/Navi_Button/4_Enable.png
+
+B_1753_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/8_Enable.png
+B_1753_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/88_Enable.png
+
+B_1754_0000000000     	IMAGE        IMAGE/GUINAV/Navi_Button/87_Enable.png
+B_1754_0000000001     	IMAGE        IMAGE/GUINAV/Navi_Button/87_Enable.png
+B_1754_0000000002     	IMAGE        IMAGE/GUINAV/Navi_Button/2_Enable.png
+B_1754_0000000003     	IMAGE        IMAGE/GUINAV/Navi_Button/3_Enable.png
+//B_1754_0000000004     	IMAGE        IMAGE/GUINAV/Navi_Button/4_Enable.png

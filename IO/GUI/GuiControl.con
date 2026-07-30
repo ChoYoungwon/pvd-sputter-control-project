@@ -1,0 +1,48 @@
+#
+$$$ Enum
+NavLeak		-		TM		PM1	
+NavPM		-		PM1		PM2
+NavALL		-		TMC		PM1		
+NavParam	-		TMC		ETC		PM1
+NavTMMaint	-		FEM		Vacuum	RFID
+NavTMConfig	-		FEM		TMC		ETC
+
+$$$ Digital
+#					       | IN					       | OUT
+#-------------------------------------------------------------------------------------------------------------------------------------
+UserLevelControl       		-		GUINAV	0	-	-	-	0	GUINAV	0	-	-	-
+
+Bottom_Operate					-		GUINAV	1	-	-	1	0	GUINAV	1	-	-	1
+Bottom_Recipe					-		GUINAV	2	-	-	1	0	GUINAV	2	-	-	1
+Bottom_Maint					-		GUINAV	3	-	-	1	0	GUINAV	3	-	-	1
+Bottom_Config					-		GUINAV	4	-	-	1	0	GUINAV	4	-	-	1
+Bottom_Utility					-		GUINAV	5	-	-	1	0	GUINAV	5	-	-	1
+Right_Operate_Main		  		-		GUINAV  1	1	-	1	0	GUINAV	1	1	-	1
+Right_Operate_Recipe_Lot  		-		GUINAV  1	2	-	1	0	GUINAV	1	2	-	1
+Right_Operate_Recipe_Cluster	-		GUINAV  1	3	-	1	0	GUINAV	1	3	-	1
+Right_Recipe_Lot  				-		GUINAV  2	1	-	1	0	GUINAV	2	1	-	1
+Right_Recipe_Cluster			-		GUINAV  2	2	-	1	0	GUINAV	2	2	-	1
+Right_Recipe_Process			-		GUINAV  2	3	-	1	0	GUINAV	2	3	-	1
+Right_Recipe_Process_Nav		NavPM	GUINAV  2	3	1	1	0	GUINAV	2	3	1	1
+Right_Maint_Process				-		GUINAV  3	1	-	1	0	GUINAV	3	1	-	1
+Right_Maint_Process_Nav			NavPM	GUINAV  3	1	1	1	0	GUINAV	3	1	1	1
+Right_Maint_Manual				-		GUINAV  3	2	-	1	0	GUINAV	3	2	-	1
+Right_Maint_Manual_Nav			NavPM	GUINAV  3	2	1	1	0	GUINAV	3	2	1	1
+Right_Maint_TransferGlass		-		GUINAV  3	3	-	1	0	GUINAV	3	3	-	1
+Right_Maint_GlassSync			-		GUINAV  3	4	-	1	0	GUINAV	3	4	-	1
+Right_Maint_DirectIO			-		GUINAV  3	5	-	1	0	GUINAV	3	5	-	1
+Right_Config_System				-		GUINAV  4	1	-	1	0	GUINAV	4	1	-	1
+Right_Config_CTC				-		GUINAV  4	2	-	1	0	GUINAV	4	2	-	1
+Right_Utility_UserLevel  		-		GUINAV  5	1	-	1	0	GUINAV	5	1	-	1
+Right_Utility_AlarmHistory		-		GUINAV  5	2	-	1	0	GUINAV	5	2	-	1
+Right_Utility_Interlock			-		GUINAV  5	3	-	1	0	GUINAV	5	3	-	1
+Right_Utility_Plot				-		GUINAV  5	4	-	1	0	GUINAV	5	4	-	1
+Right_Utility_Operate			-		GUINAV  5	5	-	1	0	GUINAV	5	5	-	1
+
+Top_Alarm						-       GUINAV     7  -  -   1  0  GUINAV     7  -  -   1  
+
+$$$ String
+CurrentUserName				GUINAV	0	1				GUINAV   0
+CurrentGroupName			GUINAV	1	1				GUINAV   1
+CurrentDate					GUINAV	2	1
+CurrentTime					GUINAV	3	1

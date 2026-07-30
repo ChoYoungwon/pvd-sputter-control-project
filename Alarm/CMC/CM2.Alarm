@@ -1,0 +1,343 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+#	CM2.	 ALARM ......201 ~ 230
+#	CM2.CODE.	ALARM......251 ~ 300
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+201 CM2.NOTHOME {
+	"CM2 'S NOTHOME ERROR"
+	CLEAR		"Clear"
+}
+
+202 CM2.DOUBLE.WAFER {
+	"CM2 'S DOUBLE WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+203 CM2.CROSS.WAFER {
+	"CM2 'S CROSS WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+204 CM2.UNKNOWN.WAFER {
+	"CM2 'S UNKNOWN WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+205 CM2.LOADPORT.ERROR {
+	"CM2 'S LOADPORT ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+206 CM2.READ.COMMERROR {
+	"CM2 'S DATA READ COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+207 CM2.WRITE.COMMERROR {
+	"CM2 'S DATA WRITE COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+208 CM2.NOTREADY {
+	"CM2 'S LOADPORT RUNNING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+209 CM2.NOTREADY {
+	"CM2 'S LOADPORT RUNNING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+210 CM2.NOTCARRIER {
+	"CM2 'S NOTCARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+211 CM2.INIT.TIMEOUT {
+	"CM2 'S INIT TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+212 CM2.CLAMP.TIMEOUT {
+	"CM2 'S CLAMP TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+213 CM2.UNCLAMP.TIMEOUT {
+	"CM2 'S UNCLAMP TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+214 CM2.OPEN.TIMEOUT {
+	"CM2 'S OPEN TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+215 CM2.CLOSE.TIMEOUT {
+	"CM2 'S CLOSE TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+216 CM2.LOAD.TIMEOUT {
+	"CM2 'S LOAD TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+217 CM2.UNLOAD.TIMEOUT {
+	"CM2 'S UNLOAD TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+218 CM2.MAPPING.TIMEOUT {
+	"CM2 'S MAPPING TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+219 CM2.CLAMP.FAIL {
+	"CM2 'S CLAMP FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+220 CM2.UNCLAMP.FAIL {
+	"CM2 'S UNCLAMP FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+221 CM2.OPEN.FAIL {
+	"CM2 'S OPEN FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+222 CM2.CLOSE.FAIL {
+	"CM2 'S CLOSE FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+223 CM2.LOAD.FAIL {
+	"CM2 'S LOAD FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+224 CM2.UNLOAD.FAIL {
+	"CM2 'S UNLOAD FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+225 CM2.MAPPING.DATA.ERROR {
+	"CM2 'S MAPPING DATA ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+226 CM2.EXTEND {
+	"CM2 'S EXTEND ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+227 CM2.ALARM.CLEAR.ERROR {
+	"CM2 'S CLEAR COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+#--------------------------------------------------------------------
+# AGV(231-237) Load/Unload(238-250)
+#--------------------------------------------------------------------
+
+231 CM2.AGV.VALID {
+	"CM2 'S AGV VALID SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+232 CM2.AGV.TRREQ {
+	"CM2 'S AGV TRANSFER_REQUEST SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+233 CM2.AGV.BUSY {
+	"CM2 'S AGV BUSY SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+234 CM2.AGV.CASSRECV {
+	"CM2 'S AGV CARRIER RECV TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+235 CM2.AGV.COMPLETE {
+	"CM2 'S AGV COMPLETE SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+236 CM2.AGV.CSOFF {
+	"CM2 'S AGV CASS MODE SIGNAL OFF TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+237 CM2.AGV.CASSMOVE {
+	"CM2 'S AGV CARRIER REMOVE TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+238 CM2.LOAD.CLAMP {
+	"CM2 'S CLAMP TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+239 CM2.UNLOAD.UNCLAMP {
+	"CM2 'S UNCLAMP TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+241 CM2.LOAD.CARRIER.PRESENT {
+	"CM2 'S CARRIER ALREADY PRESENT"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+242 CM2.LOAD.CARRIER.ABSENT {
+	"CM2 'S CARRIER ABSENT"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+243 CM2.AMHS.MANUAL {
+	"CM2 'S CARRIER ARRIVE IN MANUAL MODE"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+244 CM2.VALID.OFF {
+	"CM2 'S VALID SIGNAL OFF IN SIGNAL HANDSHAKING"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+245 CM2.LIGHT.CURTAIN.DETECT {
+	"CM2 'S LIGHT CURTAIN ON IN SIGNAL HANDSHAKING"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# BarCode/RFID (251~300)
+#--------------------------------------------------------------------
+
+251 CM2.MID.READ.FAIL{
+	"CM2'S MID Read Fail"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+252 CM2.RFID.COMM.ERROR{
+	"CM2'S RFID Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+253 CM2.RFID.HAS.ERROR{
+	"CM2'S RFID has a Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+254 CM2.RFID.UNKNOWN.RANGE{
+	"CM2'S RFID Unknown Range"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+255 CM2.CARRIER.ABSENT{
+	"CM2'S Carrier Absent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+256 CM2.CARRIER.DOCKING{
+	"CM2'S Carrier Docking Status"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+

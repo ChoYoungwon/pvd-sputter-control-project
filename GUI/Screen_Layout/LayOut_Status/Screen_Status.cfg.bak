@@ -1,0 +1,43 @@
+#-----------------------------------------------------------------------------------------------------------
+# GDF MANAGER Version 6.0(2017.03.01) (Edit Date:2026/6/26 13:42:37)
+#-----------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+$COLOR_TABLE_FILE	"GUI\Screen_Common\Table\Pallette.tbl"
+#-----------------------------------------------------------------------------------------------------------
+$IMAGE_LIBRARY		"$IMGDLL\Image_Library.dll"
+$IMAGE_BACKGROUND	"$BACKGROUND\BackGround.dll"
+#-----------------------------------------------------------------------------------------------------------
+$EDIT_MODE		ON
+$INFO_VIEW	ON
+#-----------------------------------------------------------------------------------------------------------
+$SCREEN_SIZE	1823	896
+#-----------------------------------------------------------------------------------------------------------
+$SUB_FILE	"$Popup_System_Info.cfg"
+#-----------------------------------------------------------------------------------------------------------
+#--------
+$PAGE_START		"PAGE 1"
+#--------
+#--------
+$	POPUP	3	9	IMG	2326	"\(UserLevelControl>0)"	"SystemInfo"	*	"$Popup_System_Info.cfg"	0	0	0	0	0	0
+#--------
+-	D_DRAW	1771	9	IMG		2324	""
+CurrentDate	S_IN	1781	39	TXTU_16(107:18:Arial::White)	10	""
+CurrentTime	S_IN	1781	58	TXTU_16(107:18:Arial::White)	10	""
+#--------
+$	MESSAGE	158	9	IMG	1410	""	"LogIn/Out"
+#--------
+CurrentGroupName	S_IN	324	16	TXTU_16(80:19:Arial::White)	10	""
+CurrentUserName	S_IN	241	16	TXTU_16(80:19:Arial::White)	10	""
+#-	D_DRAW	164	47	IMG		2320	""
+#-	D_DRAW	164	47	IMGB	2321	"AlarmStatus>0"
+$	D_INM	424	8	IMG	1401	""	AlarmStatus	Top_Alarm
+Top_Alarm	D_X_OUTSET	424	8	180	71	"\Top_Alarm==0"	1
+SCREEN_USER_CONTROL	FUNCTION_EVENT	1165	2	40	36	"\UserLevelControl>0"	"DISPLAY %s|0|840|50|300|700"	""	"{handle}"
+"DISPLAY EQUIPMENT - CTC"	TS_IN	631	0	TXTU_72(679:87:Impact::OffWhite)	0	""
+"Communication Status"	TS_IN	1417	7	TXTU_20(240:21:Arial:W:OffWhite:DarkGray)	0	""
+"PM1"	TS_IN	1417	32	TXTU_20(57:21:Arial:W:OffWhite:DarkGray)	0	""
+"PM2"	TS_IN	1480	32	TXTU_20(57:21:Arial:W:OffWhite:DarkGray)	0	""
+-	G_DRAW	1417	56	58	34	""	RECT	""	Black	1	0	DarkGray	0
+-	G_DRAW	1479	56	58	34	""	RECT	""	Black	1	0	DarkGray	0
+CTC.PM1_CommStatus	D_IN	1439	67	IMGB	2327	""
+CTC.PM2_CommStatus	D_IN	1499	65	IMGB	2327	""

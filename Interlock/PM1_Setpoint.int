@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Setpoint Interlock
+#-----------------------------------------------------------
+
+action ( aoDevNoz_Abs_Pos == * ) {
+		condition ( apDevNoz_End_Pos > * ) $alarm = 1901;
+}
+
+action ( doDevNoz_HomeMove == * ) {
+		condition ( dpDevNoz_HomeMode != * ) $alarm = 1902;
+}

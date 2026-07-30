@@ -1,0 +1,29 @@
+#
+#------ Weight list
+#FW_DONTCARE FW_THIN FW_EXTRALIGHT FW_ULTRALIGHT FW_LIGHT FW_NORMAL FW_REGULAR FW_MEDIUM FW_SEMIBOLD
+#FW_DEMIBOLD FW_BOLD FW_EXTRABOLD FW_ULTRABOLD FW_HEAVY FW_BLACK
+#------ Italic
+#FALSE TRUE
+#------ Uline(Underline)
+#FALSE TRUE
+#------ StkOut(StrikeOut)
+#FALSE TRUE
+#---------------------------------------------------------------
+#No	Height	Width	Weight	Italic	Uline	StkOut	Font
+#---------------------------------------------------------------
+0	16	0	0	FALSE	FALSE	FALSE	"Arial"
+1	20	0	0	FALSE	FALSE	FALSE	"Arial"
+2	24	0	0	FALSE	FALSE	FALSE	"Arial"
+3	28	0	0	FALSE	FALSE	FALSE	"Arial"
+
+10	16	0	FW_BOLD	FALSE	FALSE	FALSE	"Arial"
+11	20	0	FW_BOLD	FALSE	FALSE	FALSE	"Arial"
+12	24	0	FW_BOLD	FALSE	FALSE	FALSE	"Arial"
+13	28	0	FW_BOLD	FALSE	FALSE	FALSE	"Arial"
+
+14	38	0	FW_BOLD	FALSE	FALSE	FALSE	"Arial"
+
+20	12	0	0	FALSE	FALSE	FALSE	"Arial"
+21	12	0	FW_BOLD FALSE	FALSE	FALSE	"Arial"
+
+31	16	0	0	FALSE	FALSE	FALSE	"FixedSys"

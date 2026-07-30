@@ -1,0 +1,242 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# BM2	701-800
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+701 BM2.CASS.COMM_ERROR {
+	"BM2 Cassette Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+702 BM2.CASS.ERROR {
+	"BM2 Cassette Error Occur"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+703 BM2.CASS.HOME {
+	"BM2 Cassette Home Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+704 BM2.CASS.DOOR {
+	"BM2 Cassette Door Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+705 BM2.CASS.GOSLOT {
+	"BM2 Cassette GoSlot Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+706 BM2.CASS.GOLOAD {
+	"BM2 Cassette GoLoad Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+707 BM2.CASS.DCTWFR {
+	"BM2 Cassette DctWfr Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+708 BM2.CASS.PLATFORM {
+	"BM2 Cassette Platform Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+709 BM2.CASS.MAPPING {
+	"BM2 Cassette Mapping Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+710 BM2.CASS.DOOR2 {
+	"BM2 Cassette Door2 Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+711 BM2.CASS.GOSLOT2 {
+	"BM2 Cassette GoSlot2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+712 BM2.CASS.GOLOAD2 {
+	"BM2 Cassette GoLoad2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+713 BM2.CASS.PLATFORM2 {
+	"BM2 Cassette Platform2 Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+714 BM2.CASS.SLIDEDCT {
+	"BM2 Cassette or Wafer Sliding Detect"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+715 BM2.CASS.CARRIER {
+	"BM2 Cassette Carrier not Present"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+716 BM2.CASS.NOT_WAFERON {
+	"BM2 Cassette has not Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+717 BM2.CASS.NOT_WAFEROFF {
+	"BM2 Cassette has a Wafer at Slot"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+731 BM2.S_VENT_TIMEOUT {
+	"BM2 Soft Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+732 BM2.F_VENT_TIMEOUT {
+	"BM2 Fast Vent Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+733 BM2.S_PUMP_TIMEOUT {
+	"BM2 Soft Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+734 BM2.F_PUMP_TIMEOUT {
+	"BM2 Fast Pump Time Out"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+735 BM2.ISO_CLOSE {
+	"BM2 Iso Valve Close Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+736 BM2.ISO_OPEN {
+	"BM2 Iso Valve Open Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+737 BM2.PUMP_READY_TIMEOUT {
+	"BM2 Pump Line Pressure not Ready"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+738 BM2.CHAMBER_NOT_VACUUM {
+	"BM2 Chamber is not Vacuum"
+	CLEAR		"Clear"
+}
+
+739 BM2.CHAMBER_NOT_ATM {
+	"BM2 Chamber is not ATM"
+	CLEAR		"Clear"
+}
+
+
+751 BM2.TP.PUMP_COMM_ERR {
+	"BM2 TurboPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+752 BM2.TP.PUMP_ON_ERR {
+	"BM2 TurboPump ON Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+753 BM2.TP.PUMP_OFF_ERR {
+	"BM2 TurboPump OFF Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+754 BM2.TP.PUMP_FAULT {
+	"BM2 TurboPump Operation Failure"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+755 BM2.TP.ERROR {
+	"BM2 TurboPump Low Speed or has a Error"
+	RETRY		"Retry Turbo On"
+	ABORT		"Pump Shutdown"
+	IGNORE		"Ignore Error"
+}
+
+
+758 BM2.PIN {
+	"BM2 Pin Operation Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+791 BM2.PUMPR.COMM_ERROR {
+	"BM2 RoughPump Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+792 BM2.PUMPR.PUMP_CTR_TMO {
+	"BM2 RoughPump Control Timeout"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+

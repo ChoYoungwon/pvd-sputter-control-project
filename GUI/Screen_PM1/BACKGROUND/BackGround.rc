@@ -1,0 +1,9 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+IDB_BACKGROUND_00          		 BITMAP       BACKGROUND_PM1_Process.bmp
+IDB_BACKGROUND_01          		 BITMAP       BACKGROUND_PM1_Manual.bmp
+
+IDB_BACKGROUND_POPUP_01          BITMAP       Popup_BackGround/BACKGROUND_Popup_System_Information.bmp

@@ -1,0 +1,64 @@
+
+
+
+#action_group RoughDryPump_BM1_OFF {
+#	dioVAC_BM1_SlowRoughingValve = Close;
+#	dioVAC_BM1_RoughingValve = Close;
+#	dvVAC_BM1_RoughDryPMP_Start = Off;
+#}
+#action_group RoughDryPump_BM1_VALVE_OFF {
+#	dioVAC_BM1_SlowRoughingValve = Close;
+#	dioVAC_BM1_RoughingValve = Close;
+#}
+#
+#action_group RoughDryPump_BM2_OFF {
+#	dioVAC_BM2_SlowRoughingValve = Close;
+#	dioVAC_BM2_RoughingValve = Close;
+#	dvVAC_BM2_RoughDryPMP_Start = Off;
+#}
+#
+#action_group RoughDryPump_BM2_VALVE_OFF {
+#	dioVAC_BM2_SlowRoughingValve = Close;
+#	dioVAC_BM2_RoughingValve = Close;
+#}
+#
+#action_group RoughDryPump_TM_OFF {
+#	dioVAC_BM2_SlowRoughingValve = Close;
+#	dioVAC_BM2_RoughingValve = Close;
+#	dvVAC_BM2_RoughDryPMP_Start = Off;
+#}
+#--------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
+#if ( dvVAC_TM_RoughDryPMP != On ) {
+#	if ( dvVAC_TM_RoughDryPMP_Start == On ) $Abort = "";
+#	if ( dvVAC_TM_RoughDryPMP_Start == On ) $alarm = 833;
+#	if ( ( dvVAC_TM_RoughDryPMP_Start == On ) && ( dpPUMP_BM1_Control == NotUse ) ) $action = RoughDryPump_BM1_VALVE_OFF;
+#	if ( ( dvVAC_TM_RoughDryPMP_Start == On ) && ( dpPUMP_BM2_Control == NotUse ) ) $action = RoughDryPump_BM2_VALVE_OFF;
+#	if ( dvVAC_TM_RoughDryPMP_Start == On ) $action = RoughDryPump_TM_OFF;
+#}
+#
+#if ( ( dvVAC_BM1_RoughDryPMP != On ) && ( dpPUMP_BM1_Control != NotUse ) ) {
+#	if ( dvVAC_BM1_RoughDryPMP_Start == On ) $Abort = "";
+#	if ( dvVAC_BM1_RoughDryPMP_Start == On ) $alarm = 833;
+#	if ( dvVAC_BM1_RoughDryPMP_Start == On ) $action = RoughDryPump_BM1_OFF;
+#}
+#
+#if ( ( dvVAC_BM2_RoughDryPMP != On ) && ( dpPUMP_BM2_Control != NotUse ) ) {
+#	if ( dvVAC_BM2_RoughDryPMP_Start == On ) $Abort = "";
+#	if ( dvVAC_BM2_RoughDryPMP_Start == On ) $alarm = 833;
+#	if ( dvVAC_BM2_RoughDryPMP_Start == On ) $action = RoughDryPump_BM2_OFF;
+#}
+#
+#if ( dvVAC_TM_RoughDryPMP_Alarm == On ) {
+#	$alarm = 834;
+#}
+#
+#if ( ( dvVAC_BM1_RoughDryPMP_Alarm == On ) && ( dpPUMP_BM1_Control != NotUse ) ) {
+#	$alarm = 834;
+#}
+#
+#if ( ( dvVAC_BM2_RoughDryPMP_Alarm == On ) && ( dpPUMP_BM2_Control != NotUse ) ) {
+#	$alarm = 834;
+#}
+

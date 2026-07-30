@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kornic Library">
+      <UniqueIdentifier>{ab0cc2de-d1ac-4c53-a3a6-dba1e69282a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{96760d1d-d002-448a-9474-6276547589a2}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="API%28H%29">
+      <UniqueIdentifier>{2299ca78-a386-41bf-a8ce-95158864b94c}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{94bf13ed-1357-46be-885f-323247186587}</UniqueIdentifier>
+      <Extensions>*.c</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{27e05d1a-934d-449e-90b9-c6e968fedc8c}</UniqueIdentifier>
+      <Extensions>*.c</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="K:\lib\kutlAnal.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlEtc.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlFile.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlTime.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlgui.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlgui2.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\SchInterface.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlstr.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H\UserFlow.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_CimSeqnc.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_default.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_EQ_Enum.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_Equip_Handling.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_Errorcode.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_IO_Part_data.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_IO_Part_Log.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_iolog.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_LotType.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_MultiJob.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_MultiReg.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_Robot_Handling.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_CassetteResult.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_CassetteSupply.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_CommonUser.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_FMArm_Multi.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_Macro.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_Sch_Multi_ALIC.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_OneSelect.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_prepost.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_PrePrcs.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_prm.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_prm_Cluster.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_prm_FBTPM.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_sdm.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_sub.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_sch_UserFlow.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_Scheduler.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_System_Tag.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_Timer_Handling.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+    <ClInclude Include="K:\h\SchInf\INF_User_Parameter.h">
+      <Filter>API%28H%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source_Inf\UserFlow_Intf.c">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UserFlow.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

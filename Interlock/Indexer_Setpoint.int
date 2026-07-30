@@ -1,0 +1,57 @@
+
+##--------------------------------------------------------------------------------
+## TM Interlock - RB Arm
+##--------------------------------------------------------------------------------
+
+action ( doRbXRetExt == 1 ) {
+		condition ( diRbBusySts == 1 || diRbHomingSts == 0 ) $alarm = 160;
+}
+
+action ( aoRbAbsPos == * ) {
+		condition ( diRbExtendSen == 1 || diRbRetractSen == 0 ) $alarm = 161;
+}
+
+#action ( aoRbAbsPos == * ) {
+#		condition ( apRbPosLimit < * ) $alarm = 1848;
+#}
+#
+#action ( doRbHomeMove == * ) {
+#		condition ( dpRbHomeMode != * ) $alarm = 1849;
+#}
+#
+#action ( doRbXRetExt == Extend ) {
+#		condition ( aiRbCmdPos == 776 && diGPM1UpSen == On ) $alarm = 1846;
+#}
+
+# PM1
+#action ( doRbTMGetA == PM1 ) {
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMGetB == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMPutA == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMPutB == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMExtend == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMExtendB == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMExtendGetA == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMExtendGetB == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMExtendPutA  == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}											     
+#action ( doRbTMExtendPutB == PM1 ) {							     
+#       condition ( diGATETMPM1Opened != On || diGATETMPM1Closed != Off ) $alarm = 1803;
+#}
+

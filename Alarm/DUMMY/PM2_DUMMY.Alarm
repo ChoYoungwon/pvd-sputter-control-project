@@ -1,0 +1,27 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# CLEAN_PROCESS_PM2	961-970
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+
+961 Dry_Pump_On_IN_Vent_Open{
+	"Dry Pump On in Vent Open Condition"
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+962 Turbo_Pump_On_IN_Vent_Open{
+	"Dry Pump On in Vent Open Condition"
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+963 Ar_Gas_Valve_Open_In_High_Pressure{
+	"Ar Gas Valve Open in high Pressure"
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}

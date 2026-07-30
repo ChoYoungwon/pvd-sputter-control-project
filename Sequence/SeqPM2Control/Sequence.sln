@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sequence", "Sequence.vcxproj", "{4DD6E914-6447-40D8-BC2C-43BA99C04D08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD6E914-6447-40D8-BC2C-43BA99C04D08}.Release|Win32.ActiveCfg = Release|Win32
+		{4DD6E914-6447-40D8-BC2C-43BA99C04D08}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A1F489-AFD5-4DA0-ACA7-F2742A279C6D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,255 @@
+//#Logging 3
+#define		ALARM_RETRY		"1"
+#define		ALARM_IGNORE	"3"
+#define		ALARM_ABORT		"7"
+
+#define		eOff_0		"0"
+#define		eOn_1		"1"
+
+#define		eShuttle_0		"0"
+#define		eOneWay_1		"1"
+
+#define		eIdle		"0"
+#define		eBusy		"1"
+
+#define		eHoming		"0"
+#define		eNone		"1"
+
+#define		TOL			"2"
+
+
+RUN		S		"(diDevNoz_Busy_Sts == eBusy) || (diDevNoz_Homing_Sts == eHoming)"
+
+RUN		-		""				"$SEP: = $P"	// ex) SET 100
+RUN		-		""				"$G1 = aiDevNoz_Cur_Pos"
+RUN		-		""				"$G2 = apDevNoz_End_Pos + TOL"
+RUN		-		""				"$G3 = apDevNoz_End_Pos - TOL"
+
+//	$S1			RunStr
+//	$S2 ~ $S4	Param
+//	$G1			StartPos
+//	$G2			MaxPos
+//	$G3			MinPos
+
+
+HERE	1
+
+GOTO	100		"$S1 == 'HOME'"
+GOTO	200		"$S1 == 'IDLE'"
+GOTO	300		"$S1 == 'MOVE'"
+GOTO	400		"$S1 == 'SWING_ONEWAY'"
+GOTO	400		"$S1 == 'SWING_SHUTTLE'"
+GOTO	999
+
+
+// 'HOME'
+HERE	100
+
+//	$G2				MaxPos
+//	$G3				MinPos
+//	$G4 ~ $G5		PosDiff
+
+//RUN		-		""				"doDevNoz_Servo = eOff_0"
+RUN		-		""				"doDevNoz_Current = eOff_0"
+RUN		-		""				"aoDevNoz_Home_Spd0 = apDevNoz_Home_Spd0"
+RUN		-		""				"aoDevNoz_Home_Spd1 = apDevNoz_Home_Spd1"
+RUN		-		""				"aoDevNoz_Home_Spd2 = apDevNoz_Home_Spd2"
+RUN		-		""				"aoDevNoz_Offset_Spd = apDevNoz_Offset_Spd"
+RUN		-		""				"doDevNoz_Set_HomeSpd = eOn_1"
+RUN		-		""				"doDevNoz_HomeMove = dpDevNoz_HomeMode"
+RUN		-		""				"$Timer = 0"
+RUN		A		"!$Wait:0.5"
+
+//HERE	101
+//GOTO	102		"(diDevNoz_Homing_Sts == eHoming)"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	101
+
+HERE	102
+GOTO	103		"(diDevNoz_Homing_Sts == eNone)"
+//GOTO	103		"(diDevNoz_Homing_Sts == eNone) && (diDevNoz_Busy_Sts == eIdle)"
+GOTO	888		"$Timer >= 30"
+RUN		A		"!$Wait:0.2"
+GOTO	102
+
+HERE	103
+RUN		A		"!$Wait:0.1"
+RUN		-		""				"aoDevNoz_Reset_Pos = 0"
+RUN		-		""				"aoDevNoz_Set_Pos = 0"
+RUN		-		""				"aoDevNoz_Cur_Pos = 0"
+
+GOTO	999
+//HERE	104
+//RUN		-		""				"$G4 = apDevNoz_End_Pos + aiDevNoz_Cmd_Pos"
+//RUN		-		""				"$G5 = apDevNoz_End_Pos + aiDevNoz_Cur_Pos"
+//RUN		S		"($G4 < $G2) && ($G4 > $G3) && ($G5 < $G2) && ($G5 > $G3)"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	104
+
+
+// 'IDLE'
+HERE	200
+
+//	$S2		Flow
+
+RUN		-		""		"$RUNSET:PM1.OBJ_DEVELOPER_FLOW = 'SET $S2'"
+RUN		-		"$S2 == 0.000000"		"doDevNoz_LED = eOff_0"
+RUN		-		"$S2 > 0.000000"		"doDevNoz_LED = eOn_1"
+GOTO	999
+
+
+// 'MOVE'
+HERE	300
+
+//	$S2		TargetPos
+//	$S3		Speed
+//	$S4		Flow
+//	$G1		StartPos
+//	$G2		MaxPos
+//	$G3		MinPos
+//	$G4		PosDiff
+
+RUN		-		""				"aoDevNoz_Set_Start_Spd = apDevNoz_Set_Start_Spd"
+RUN		-		""				"aoDevNoz_Set_Acc_Spd = apDevNoz_Set_Acc_Spd"
+RUN		-		""				"aoDevNoz_Set_Dec_Spd = apDevNoz_Set_Dec_Spd"
+RUN		-		""				"aoDevNoz_Set_Drive_Spd = $S3"
+RUN		-		""				"doDevNoz_Set_Spd = eOn_1"
+
+RUN		-		""				"$G4 = apDevNoz_End_Pos + $S2 - $G1"
+RUN		S		"($G4 < $G2) && ($G4 > $G3)"
+RUN		S		"$S3 == 0"
+
+RUN		-		"$S4 > 0"		"$RUNSET:PM1.OBJ_DEVELOPER_FLOW = 'SET $S4'"
+RUN		-		"$S4 == 0.000000"		"doDevNoz_LED = eOff_0"
+RUN		-		"$S4 > 0.000000"		"doDevNoz_LED = eOn_1"
+
+RUN		-		""				"aoDevNoz_Abs_Pos = $S2"
+RUN		-		""				"$Timer = 0"
+RUN		A		"!$Wait:0.5"
+
+//HERE	301
+//GOTO	302		"diDevNoz_Busy_Sts == eBusy"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	301
+
+HERE	302
+GOTO	303		"diDevNoz_Busy_Sts == eIdle"
+GOTO	888		"$Timer >= 30"
+RUN		A		"!$Wait:0.1"
+GOTO	302
+
+HERE	303
+//RUN		-		""				"$G4 = apDevNoz_End_Pos + aiDevNoz_Cur_Pos - $S2"
+//GOTO	304		"($G4 < $G2) && ($G4 > $G3)"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	303
+
+HERE	304
+RUN		-		""				"$RUNSET:PM1.OBJ_DEVELOPER_FLOW = 'SET 0'"
+RUN		-		""		"doDevNoz_LED = eOff_0"
+GOTO	999
+
+
+// 'SWING'
+HERE	400
+
+//	$S2		TargetPos 
+//	$S3		Speed     
+//	$S4		Flow      
+//	$G1		StartPos
+//	$G2		MaxPos
+//	$G3		MinPos
+//	$G4		PosDiff
+//	$G5		Option
+
+RUN		-		""				"aoDevNoz_Set_Start_Spd = apDevNoz_Set_Start_Spd"
+RUN		-		""				"aoDevNoz_Set_Acc_Spd = apDevNoz_Set_Acc_Spd"
+RUN		-		""				"aoDevNoz_Set_Dec_Spd = apDevNoz_Set_Dec_Spd"
+RUN		-		""				"aoDevNoz_Set_Drive_Spd = $S3"
+RUN		-		""				"doDevNoz_Set_Spd = eOn_1"
+
+RUN		-		"$S1 == 'SWING_ONEWAY'"		"$G5 = eOneWay_1"
+RUN		-		"$S1 == 'SWING_SHUTTLE'"	"$G5 = eShuttle_0"
+
+RUN		-		""				"$G4 = apDevNoz_End_Pos + $S2 - $G1"
+RUN		S		"($G4 < $G2) && ($G4 > $G3)"
+RUN		S		"$S3 == 0"
+
+RUN		-		"$S4 > 0"		"$RUNSET:PM1.OBJ_DEVELOPER_FLOW = 'SET $S4'"
+RUN		-		"$S4 == 0.000000"		"doDevNoz_LED = eOff_0"
+RUN		-		"$S4 > 0.000000"		"doDevNoz_LED = eOn_1"
+
+RUN		-		""				"aoDevNoz_Abs_Pos = $S2"
+RUN		-		""				"$Timer = 0"
+RUN		A		"!$Wait:0.5"
+
+//HERE	401
+//GOTO	402		"diDevNoz_Busy_Sts == eBusy"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	401
+
+HERE	402
+GOTO	403		"diDevNoz_Busy_Sts == eIdle"
+GOTO	888		"$Timer >= 30"
+RUN		A		"!$Wait:0.1"
+GOTO	402
+
+HERE	403
+//RUN		-		""				"$G4 = apDevNoz_End_Pos + aiDevNoz_Cur_Pos - $S2"
+//GOTO	404		"($G4 < $G2) && ($G4 > $G3)"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	403
+
+HERE	404
+RUN		-		"$G5 == eOneWay_1"		"$RUNSET:PM1.OBJ_DEVELOPER_FLOW = 'SET 0'"
+RUN		-		"$G5 == eOneWay_1"		"doDevNoz_LED = eOff_0"
+
+RUN		-		""				"aoDevNoz_Abs_Pos = $G1"
+RUN		-		""				"$Timer = 0"
+RUN		A		"!$Wait:0.5"
+
+//HERE	405
+//GOTO	406		"diDevNoz_Busy_Sts == eBusy"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	405
+
+HERE	406
+GOTO	407		"diDevNoz_Busy_Sts == eIdle"
+GOTO	888		"$Timer >= 30"
+RUN		A		"!$Wait:0.1"
+GOTO	406
+
+HERE	407
+//RUN		-		""				"$G4 = apDevNoz_End_Pos + aiDevNoz_Cur_Pos - $G1"
+//GOTO	408		"($G4 < $G2) && ($G4 > $G3)"
+//GOTO	888		"$Timer >= 30"
+//RUN		A		"!$Wait:0.1"
+//GOTO	407
+
+HERE	408
+RUN		-		""				"$RUNSET:PM1.OBJ_DEVELOPER_FLOW = 'SET 0'"
+RUN		-		""		"doDevNoz_LED = eOff_0"
+GOTO	999
+
+
+// Alarm_Manage
+HERE	888
+RUN		-		""				"$ALARM = 4002"
+
+GOTO	1		"$ALARM == ALARM_RETRY"		// 1:ALM_RETRY
+RUN		S		"$ALARM == ALARM_IGNORE"	// 3:ALM_IGNORE
+RUN		A		""							// 7:ALM_ABORT
+
+// SYS_SUCCESS
+HERE	999
+RUN		S
+
+RETURN	S	"$X == $SUCCESS"
+RETURN	A	"$X == $ABORT"

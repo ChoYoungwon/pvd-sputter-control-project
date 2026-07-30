@@ -1,0 +1,3 @@
+$RunType	Normal
+
+#TMC_ROBOT_CONTROL	"ROTPLC %s"

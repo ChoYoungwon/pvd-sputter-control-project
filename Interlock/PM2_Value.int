@@ -1,0 +1,8 @@
+#-----------------------------------------------------------
+# Value Interlock
+#-----------------------------------------------------------
+if(doDevNoz_LED == On) {
+	$print = "It is happend dispensing alarm";
+	if(CTC.PM1_Wafer_Status < 0) $alarm = 1902;
+}
+

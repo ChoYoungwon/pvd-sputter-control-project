@@ -1,0 +1,4 @@
+$RunType	Normal
+
+SEQ_CM1_CONTROL		"LOAD %s"
+#FM_ROBOT_CONTROL	"MAPPING CM1 %s"

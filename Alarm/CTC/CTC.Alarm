@@ -1,0 +1,19 @@
+#
+#
+#
+# Possible Recovery Action String
+#      - CLEAR / RETRY / WAIT / IGNORE / DISABLE / ENABLE / STOP / ABORT
+#
+#
+#
+#
+#
+#
+
+
+11 PrcsFileErr {
+	"Process Recipe File Error입니다."
+	RETRY		"재시도"
+	ABORT		"중지"
+	DESCRIPTION	"Alarm/AlarmText/System/11.txt"
+}

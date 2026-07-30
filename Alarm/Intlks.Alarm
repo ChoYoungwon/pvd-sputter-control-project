@@ -1,0 +1,448 @@
+# LP1
+1131 LP1.MAPPING_ERROR {
+	"LP1 Mapping Error - LP1 Door Not Downed or Wafer SlideOut"
+	CLEAR		"Clear Operation"
+}
+
+1132 LP1.PICK_ERROR {
+	"LP1 Pick Error - LP1 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1133 LP1.PLACE_ERROR {
+	"LP1 Place Error - LP1 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1135 LP1.EXT_ERROR {
+	"LP1 Extend Error - LP1 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+
+# LP2
+1181 LP2.MAPPING_ERROR {
+	"LP2 Mapping Error - LP2 Door Not Downed or Wafer SlideOut"
+	CLEAR		"Clear Operation"
+}
+
+1182 LP2.PICK_ERROR {
+	"LP2 Pick Error - LP2 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1183 LP2.PLACE_ERROR {
+	"LP2 Place Error - LP2 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1185 LP2.EXT_ERROR {
+	"LP2 Extend Error - LP2 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+# LP3
+1231 LP3.MAPPING_ERROR {
+	"LP3 Mapping Error - LP3 Door Not Downed or Wafer SlideOut"
+	CLEAR		"Clear Operation"
+}
+
+1232 LP3.PICK_ERROR {
+	"LP3 Pick Error - LP3 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1233 LP3.PLACE_ERROR {
+	"LP3 Place Error - LP3 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1235 LP3.EXT_ERROR {
+	"LP3 Extend Error - LP3 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+# LP4
+1281 LP4.MAPPING_ERROR {
+	"LP4 Mapping Error - LP4 Door Not Downed or Wafer SlideOut"
+	CLEAR		"Clear Operation"
+}
+
+1282 LP4.PICK_ERROR {
+	"LP4 Pick Error - LP4 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1283 LP4.PLACE_ERROR {
+	"LP4 Place Error - LP4 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1285 LP4.EXT_ERROR {
+	"LP4 Extend Error - LP4 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+# BM1
+1461 BM1.PICK_ERROR {
+	"BM1 Pick Error - BM1 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1462 BM1.PLACE_ERROR {
+	"BM1 Place Error - BM1 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1465 BM1.EXT_ERROR {
+	"BM1 Extend Error - BM1 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+
+1470 BM1.ISO_OPEN_ERR {
+	"BM1 Iso Gate Open Error - BM1 Press Too High or TP is Not Running"
+	CLEAR		"Clear Operation"
+}
+
+1471 BM1.TP_ON_ERR {
+	"BM1 Turbo Pump On Error"
+	CLEAR		"Clear Operation"
+}
+
+1472 BM1.FASTVENT_OPEN_ERR {
+	"BM1 Fast Vent Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1473 BM1.PROFILEDVENT_OPEN_ERR {
+	"BM1 Profiled Vent Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1474 BM1.ROUGHVLV_OPEN_ERR {
+	"BM1 Rough Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1475 BM1.SLOWROUGHVLV_OPEN_ERR {
+	"BM1 Slow Rough Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1476 BM1.DIO_DOOR_OPEN_ERR {
+	"BM1 Door Can't Open -> Not ATM"
+	CLEAR		"Clear Operation"
+}
+
+1477 BM1.TBBACKVLV_CLOSE_ERR {
+	"BM1 Turbo Backing Vlv Can't Close -> TP is Running"
+	CLEAR		"Clear Operation"
+}
+
+1478 BM1.IONGAUGE_ON_ERR {
+	"BM1 Ion Gauge Can't Be On -> Too High Press"
+	CLEAR		"Clear Operation"
+}
+
+# BM2
+1561 BM2.PICK_ERROR {
+	"BM2 Pick Error - BM2 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1562 BM2.PLACE_ERROR {
+	"BM2 Place Error - BM2 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1565 BM2.EXT_ERROR {
+	"BM2 Extend Error - BM2 Door Not Downed"
+	CLEAR		"Clear Operation"
+}
+
+1570 BM2.ISO_OPEN_ERR {
+	"BM2 Iso Gate Open Error - BM2 Press Too High or TP is Not Running"
+	CLEAR		"Clear Operation"
+}
+
+1571 BM2.TP_ON_ERR {
+	"BM2 Turbo Pump On Error"
+	CLEAR		"Clear Operation"
+}
+
+1572 BM2.FASTVENT_OPEN_ERR {
+	"BM2 Fast Vent Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1573 BM2.PROFILEDVENT_OPEN_ERR {
+	"BM2 Profiled Vent Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1574 BM2.ROUGHVLV_OPEN_ERR {
+	"BM2 Rough Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1575 BM2.SLOWROUGHVLV_OPEN_ERR {
+	"BM2 Slow Rough Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1576 BM2.DOOROPEN_OPEN_ERR {
+	"BM2 Door Can't Open -> Not ATM"
+	CLEAR		"Clear Operation"
+}
+
+1577 BM2.TBBACKVLV_CLOSE_ERR {
+	"BM2 Turbo Backing Vlv Can't Close -> TP is Running"
+	CLEAR		"Clear Operation"
+}
+
+1578 BM2.IONGAUGE_ON_ERR {
+	"BM2 Ion Gauge Can't Be On -> Too High Press"
+	CLEAR		"Clear Operation"
+}
+
+# MAG7
+1801 TM.MAG7.EXT_BM1_ERR {
+	"Robot Arm Can't Action - BM1 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+1802 TM.MAG7.EXT_BM2_ERR {
+	"Robot Arm Can't Action - BM2 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+1803 TM.MAG7.EXT_PM1_ERR {
+	"Robot Arm Can't Action - PM1 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+1804 TM.MAG7.EXT_PM2_ERR {
+	"Robot Arm Can't Action - PM2 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+1805 TM.MAG7.EXT_PM3_ERR {
+	"Robot Arm Can't Action - PM3 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+1806 TM.MAG7.EXT_PM4_ERR {
+	"Robot Arm Can't Action - PM4 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+1807 TM.MAG7.EXT_PM5_ERR {
+	"Robot Arm Can't Action - PM5 Slot Valve Not Opened"
+	CLEAR		"Clear Operation"
+}
+
+
+1810 TM.ISO_OPEN_ERR {
+	"TM Iso Gate Open Error - TM Press Too High or TP is Not Running"
+	CLEAR		"Clear Operation"
+}
+
+1811 TM.TP_ON_ERR {
+	"TM Turbo Pump On Error"
+	CLEAR		"Clear Operation"
+}
+
+1812 TM.FASTVENT_OPEN_ERR {
+	"TM Fast Vent Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1813 TM.ROUGHVLV_OPEN_ERR {
+	"TM Rough Valve Open Error"
+	CLEAR		"Clear Operation"
+}
+
+1814 TM.TBBACKVLV_CLOSE_ERR {
+	"TM Turbo Backing Vlv Can't Close -> TP is Running"
+	CLEAR		"Clear Operation"
+}
+
+1815 TM.IONGAUGE_ON_ERR {
+	"TM Ion Gauge Can't Be On -> Too High Press"
+	CLEAR		"Clear Operation"
+}
+
+1816 TM.BM1_SLOTVLV_OPEN_ERR {
+	"TM.BM1 Slot Valve Can't Open -> See ATM Status"
+	CLEAR		"Clear Operation"
+}
+
+1817 TM.BM2_SLOTVLV_OPEN_ERR {
+	"TM.BM2 Slot Valve Can't Open -> See ATM Status"
+	CLEAR		"Clear Operation"
+}
+1818 TM.PM1_SLOTVLV_OPEN_ERR {
+	"TM.PM1 Slot Valve Can't Open -> See ATM Status"
+	CLEAR		"Clear Operation"
+}
+1819 TM.PM2_SLOTVLV_OPEN_ERR {
+	"TM.PM2 Slot Valve Can't Open -> See ATM Status"
+	CLEAR		"Clear Operation"
+}
+1820 TM.PM3_SLOTVLV_OPEN_ERR {
+	"TM.PM3 Slot Valve Can't Open -> See ATM Status"
+	CLEAR		"Clear Operation"
+}
+1821 TM.PM4_SLOTVLV_OPEN_ERR {
+	"TM.PM4 Slot Valve Can't Open -> See ATM Status"
+	CLEAR		"Clear Operation"
+}
+1822 TM.PM5_SLOTVLV_OPEN_ERR {
+	"TM.PM5 Slot Valve Can't Open -> See ATM Status"
+	CLEAR		"Clear Operation"
+}
+
+#Dry Pump InterLock
+1823 BM1.RoughDRP_ON_ERR {
+	"(Slow)Rough Valve Not Closed -> See (Slow)Rough Vlv Status"
+	CLEAR		"Clear Operation"
+}
+1824 BM2.RoughDRP_ON_ERR {
+	"(Slow)Rough Valve Not Closed -> See (Slow)Rough Vlv Status"
+	CLEAR		"Clear Operation"
+}
+1826 TM.RoughDRP_ON_ERR {
+	"(Slow)Rough Valve Not Closed -> See (Slow)Rough Vlv Status"
+	CLEAR		"Clear Operation"
+}
+
+1827 TM.TurboBacking_Open_ERR {
+	"Fore DryPump Not Running -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+1828 BM1.TurboBacking_Open_ERR {
+	"Fore DryPump Not Running -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+1829 BM2.TurboBacking_Open_ERR {
+	"Fore DryPump Not Running -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+1830 TM.FOREDRP_OFF_ERR {
+	"Fore DryPump Off Error -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+
+1831 TM.FOREDRP_ALARM_ERR {
+	"Fore DryPump Alarm Error -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+1832 TM.FOREDRP_WARNING_ERR {
+	"Fore DryPump Warning Error -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1833 TM.ROUGHDRP_OFF_ERR {
+	"Rough DryPump Off Error -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+1834 TM.VD_RDPMP_Alarm_Status_ERR {
+	"Rough DryPump Alarm Error -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+1835 TM.ROUGHDRP_WARNING_ERR {
+	"Rough DryPump Warning Error -> See Fore DryPump Status"
+	CLEAR		"Clear Operation"
+}
+
+1836 TM.GX.AIRPRES_OFF_ERR {
+	"Air Pressure Sensor Off detected."
+	CLEAR		"Clear Operation"
+}
+
+
+1837 TM.GX.N2PRESH_OFF_ERR {
+	"N2 Pressure High Sensor Off detected."
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1838 TM.GX.N2PRESL_OFF_ERR {
+	"N2 Pressure Low Sensor Off detected."
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1839 TM.GX.WaterLeak_ON_ERR00 {
+	"Water Leak Sensor On detected."
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1840 TM.GX.WaterFlow_OFF_ERR {
+	"Water Flow Sensor Off detected."
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1841 TM.DIFFPRES_OFF_ERR {
+	"Diffrencial Pressure Sensor Off detected."
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1842 TM.GX.WaterLeak_ON_ERR01 {
+	"Down Floor Water Leak Sensor On detected."
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1843 TM.GX.FFU_OFF_ERR01 {
+	"Fan Filter Unit Alarm Sensor Off detected."
+	CLEAR		"Clear Operation"
+	LEVEL		1
+}
+
+1844 TM.LP_INTLK_OFF_ERR01 {
+	"Load Port Interlock Sensor Off detected."
+	CLEAR		"Clear Operation"
+}
+
+1845 Robot_INTLK_ERR{
+	"Door Open Interlock Val Off"
+	CLEAR		"Clear Operation"
+}
+
+1846 Robot_Extend_INTLK_ERR{
+	"Robot is Still Busy."
+	CLEAR		"Clear Operation"
+}
+
+1847 Robot_Rotate_INTLK_ERR{
+	"Robot Arm Must be Retracted."
+	CLEAR		"Clear Operation"
+}
+
+1848 Robot_Limit_INTLK_ERR{
+	"Robot Position Limit Exceeded."
+	CLEAR		"Clear Operation"
+}
+
+1849 Robot_HomeMode_INTLK_ERR{
+	"Robot HomeMode is Incorrect."
+	CLEAR		"Clear Operation"
+}
+
+#PM1 DevNoz Intlks
+1901 DevNoz_Limit_INTLK_ERR{
+	"Developer Nozzle Position Limit Exceeded."
+	CLEAR		"Clear Operation"
+}
+
+1902 DevNoz_HomeMode_INTLK_ERR{
+	"Developer Nozzle HomeMode is Incorrect."
+	CLEAR		"Clear Operation"
+}

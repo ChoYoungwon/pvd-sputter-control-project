@@ -1,0 +1,21 @@
+100	Intlk_Valve2 {
+	"Can not open Valve2 (because Valve1 is already open)"
+	CLEAR	"Clear"
+	RETRY	"Retry"
+	IGNORE	"Ignore"
+}
+
+101	Intlk_Valve3 {
+	"Can not open Valve3 (because Valve1 is already open)"
+	CLEAR	"Clear"
+}
+
+102	Intlk_Valve1 {
+	"Can not open Valve1 (because Valve2 or Valve3 is already open)"
+	CLEAR	"Clear"
+}
+
+103	Intlk_Test1 {
+	"Can not open Valve1 (because Valve2 or Valve3 is already open)"
+	CLEAR	"Clear"
+}

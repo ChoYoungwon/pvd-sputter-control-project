@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d0f1112f-b2e9-4f87-bb9b-ca071b7fc0a9}</UniqueIdentifier>
+      <Extensions>*.c</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9c4065b0-b82e-4dcd-a75e-eeb05833959f}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Kornic Library">
+      <UniqueIdentifier>{0e81f617-2d66-42ab-9377-a5b6cd003d95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\prg_code.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\usr_code.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H\iodefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="K:\lib\kutlAnal.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlEtc.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlFile.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlStr.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+    <Library Include="K:\lib\kutlTime.lib">
+      <Filter>Kornic Library</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

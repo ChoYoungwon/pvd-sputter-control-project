@@ -1,0 +1,100 @@
+#--------------------------------------------------------------------------
+$$$ Analog
+#--------------------------------------------------------------------------
+avDevNozSetPos		mm		-		-	-	-	0	-620	0		1	-		-	-	-	0	-620		0		
+avDevNozSetEndPos	mm		-		-	-	-	0	-620	0		1	-		-	-	-	0	-620		0		
+avDevNozSetDriveSpd	mm/min	-		-	-	-	0	0		100		1	-		-	-	-	0	0	100
+avDevNozFlow		ml		-		-	-	-	0	0		100		1	-		-	-	-	0	0	100		
+
+
+$$$ Digital
+dpDevNoz_HomeMode		HomeMode
+
+$$$ Analog
+#   Name				Units		Driver	ID1	ID2	ID3	Dec	Min	Max	Poll	Driver	ID1	ID2	ID3	Dec	Min	Max
+#   ----			-----	------	---	---	---	---	---	---	----	------	---	---	---	---	---	---
+
+apDevNoz_Move_Timeout	sec		-		-	-	-	0	0	300	1	-		-	-	-	0	0	300
+apDevNoz_Swing_Timeout	sec		-		-	-	-	0	0	300	1	-		-	-	-	0	0	300
+apDevNoz_Flow_Timeout	sec		-		-	-	-	0	0	300	1	-		-	-	-	0	0	300
+				
+apDevNoz_Start_Pos		mm/min	-			-	-	-	0	-620		0		1	-		-	-	-	0	-620		0
+apDevNoz_Edge1_Pos		mm/min	-		-	-	-	0	-620		0		1	-		-	-	-	0	-620		0
+apDevNoz_Center_Pos		mm/min	-		-	-	-	0	-620		0		1	-		-	-	-	0	-620		0
+apDevNoz_Edge2_Pos		mm/min	-		-	-	-	0	-620		0		1	-		-	-	-	0	-620		0
+apDevNoz_End_Pos		mm/min	-		-	-	-	0	-620		0		1	-		-	-	-	0	-620		0
+	
+apDevNoz_Set_Start_Spd	mm/min	-		-	-	-	0	0	20	1	-		1	5	0	0	0	20
+apDevNoz_Set_Acc_Spd	mm/min	-		-	-	-	0	0	100	1	-		1	5	0	0	0	100
+apDevNoz_Set_Dec_Spd	mm/min	-		-	-	-	0	0	100	1	-		1	5	0	0	0	100
+apDevNoz_Set_Drive_Spd	mm/min	-		-	-	-	0	0	100	1	-		1	5	0	0	0	100
+					
+apDevNoz_Home_Spd0		mm/min	-		-	-	-	0	0	10	1	-		1	6	0	0	0	10
+apDevNoz_Home_Spd1		mm/min	-		-	-	-	0	0	10	1	-		1	6	0	0	0	10
+apDevNoz_Home_Spd2		mm/min	-		-	-	-	0	0	10	1	-		1	6	0	0	0	10
+apDevNoz_Offset_Spd		mm/min	-		-	-	-	0	0	10	1	-		1	6	0	0	0	10
+
+
+$$$ Begin  PM1
+#------------------------------------------------
+$$$ String
+svLastAlarmTime
+svLastAlarmID	
+svLastAlarmModule
+svLastAlarmMessage
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+# Process
+$$$ Digital
+
+dvUpperSendAble			eOFFON
+dvUpperSendStart		eOFFON
+dvUpperSendComplete		eOFFON
+dvLowerRecvAble			eOFFON
+dvLowerRecvStart		eOFFON
+dvLowerRecvComplete		eOFFON
+
+# 중요----------------------------------------------------------------------------------------------------------------------------------------------------
+CommStatus	-	1
+AlarmStatus		AlarmSts  SYSTEM     0  0  3000  6999  1
+AlarmHappenSts
+
+EasyCluster_Connect
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+
+dvVacuumStatus			VACSTS
+dvMAIN_CONTROL			IdleRun
+dvControlStatus			ControlSts	UnInit
+dvPM_Wafer_Result		WfrReslt	
+dvPM_Wafer_Status	
+dvPM_Wafer_Source		CassSrc
+
+dvRCP_Process_DataLog
+
+dvRCP_MaxStep
+dvRCP_StepNumber
+
+dvRCP_Process_Status		PrcsStatus
+dvRCP_Process_Control		PrcsLastCtl
+dvRCP_Process_Run		PrcsStartEnd
+
+#------------------------------------------------
+$$$ Analog
+
+avRCP_Progress
+
+avRCP_Total_RunTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+avRCP_Total_SetTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+avRCP_Step_RunTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+avRCP_Step_SetTime		sec		-	-	-	-	1	0	10000	1	-	-	-	-	0	0	10000
+
+#------------------------------------------------
+$$$ String
+
+svRCP_File				""
+svRCP_Process_Message	""
+svRCP_Name				""
+svRCP_StepName			""
+
+$$$ End

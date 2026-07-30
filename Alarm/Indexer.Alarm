@@ -1,0 +1,410 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+#	CM1.	 ALARM ......101 ~ 150
+#	CM1.CODE.	ALARM......151 ~ 200
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+101 CM1.NOTHOME {
+	"CM1 'S NOTHOME ERROR"
+	CLEAR		"Clear"
+}
+
+102 CM1.DOUBLE.WAFER {
+	"CM1 'S DOUBLE WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+103 CM1.CROSS.WAFER {
+	"CM1 'S CROSS WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+104 CM1.UNKNOWN.WAFER {
+	"CM1 'S UNKNOWN WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+105 CM1.LOADPORT.ERROR {
+	"CM1 'S LOADPORT ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+106 CM1.READ.COMMERROR {
+	"CM1 'S DATA READ COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+107 CM1.WRITE.COMMERROR {
+	"CM1 'S DATA WRITE COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+108 CM1.NOTREADY {
+	"CM1 'S LOADPORT RUNNING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+109 CM1.NOTREADY {
+	"CM1 'S LOADPORT RUNNING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+110 CM1.NOTCARRIER {
+	"CM1 'S NOTCARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+111 CM1.INIT.TIMEOUT {
+	"CM1 'S INIT TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+112 CM1.CLAMP.TIMEOUT {
+	"CM1 'S CLAMP TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+113 CM1.UNCLAMP.TIMEOUT {
+	"CM1 'S UNCLAMP TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+114 CM1.OPEN.TIMEOUT {
+	"CM1 'S OPEN TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+115 CM1.CLOSE.TIMEOUT {
+	"CM1 'S CLOSE TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+116 CM1.LOAD.TIMEOUT {
+	"CM1 'S LOAD TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+117 CM1.UNLOAD.TIMEOUT {
+	"CM1 'S UNLOAD TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+118 CM1.MAPPING.TIMEOUT {
+	"CM1 'S MAPPING TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+119 CM1.CLAMP.FAIL {
+	"CM1 'S CLAMP FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+120 CM1.UNCLAMP.FAIL {
+	"CM1 'S UNCLAMP FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+121 CM1.OPEN.FAIL {
+	"CM1 'S OPEN FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+122 CM1.CLOSE.FAIL {
+	"CM1 'S CLOSE FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+123 CM1.LOAD.FAIL {
+	"CM1 'S LOAD FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+124 CM1.UNLOAD.FAIL {
+	"CM1 'S UNLOAD FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+125 CM1.MAPPING.DATA.ERROR {
+	"CM1 'S MAPPING DATA ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+126 CM1.EXTEND {
+	"CM1 'S EXTEND ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+127 CM1.ALARM.CLEAR.ERROR {
+	"CM1 'S CLEAR COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# AGV(131-137) Load/Unload(138-150)
+#--------------------------------------------------------------------
+
+131 CM1.AGV.VALID {
+	"CM1 'S AGV VALID SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+132 CM1.AGV.TRREQ {
+	"CM1 'S AGV TRANSFER_REQUEST SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+133 CM1.AGV.BUSY {
+	"CM1 'S AGV BUSY SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+134 CM1.AGV.CASSRECV {
+	"CM1 'S AGV CARRIER RECV TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+135 CM1.AGV.COMPLETE {
+	"CM1 'S AGV COMPLETE SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+136 CM1.AGV.CSOFF {
+	"CM1 'S AGV CASS MODE SIGNAL OFF TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+137 CM1.AGV.CASSREMOVE {
+	"CM1 'S AGV CARRIER REMOVE TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+138 CM1.LOAD.CLAMP {
+	"CM1 'S CLAMP TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+139 CM1.UNLOAD.UNCLAMP {
+	"CM1 'S UNCLAMP TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+141 CM1.LOAD.CARRIER.PRESENT {
+	"CM1 'S CARRIER ALREADY PRESENT"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+142 CM1.LOAD.CARRIER.ABSENT {
+	"CM1 'S CARRIER ABSENT"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+143 CM1.AMHS.MANUAL {
+	"CM1 'S CARRIER ARRIVE IN MANUAL MODE"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+144 CM1.VALID.OFF {
+	"CM1 'S VALID SIGNAL OFF IN SIGNAL HANDSHAKING"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+145 CM1.LIGHT.CURTAIN.DETECT {
+	"CM1 'S LIGHT CURTAIN ON IN SIGNAL HANDSHAKING"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# BarCode/RFID (151~200)
+#--------------------------------------------------------------------
+
+151 CM1.MID.READ.FAIL{
+	"CM1'S MID Read Fail"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+152 CM1.RFID.COMM.ERROR{
+	"CM1'S RFID Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+153 CM1.RFID.HAS.ERROR{
+	"CM1'S RFID has a Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+154 CM1.RFID.UNKNOWN.RANGE{
+	"CM1'S RFID Unknown Range"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+155 CM1.CARRIER.ABSENT{
+	"CM1'S Carrier Absent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+156 CM1.CARRIER.DOCKING{
+	"CM1'S Carrier Docking Status"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+157 Glass_Present_In_CM{
+	"There is already glass in Caseete Module."
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+158 Glass_Emtpy_In_CM{
+	"There is NOT glass in Caseete Module."
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+160 Robot_Extend_INTLK_ERR{
+	"Robot is Still Busy."
+	CLEAR		"Clear Operation"
+}
+
+161 Robot_Rotate_INTLK_ERR{
+	"Robot Arm Must be Retracted."
+	CLEAR		"Clear Operation"
+}
+
+162 Robot_Limit_INTLK_ERR{
+	"Robot Position Limit Exceeded."
+	CLEAR		"Clear Operation"
+}
+
+163 Robot_HomeMode_INTLK_ERR{
+	"Robot HomeMode is Incorrect."
+	CLEAR		"Clear Operation"
+}
+
+164 Robot_Action_Timeout{
+	"Robot Action is over time."
+	CLEAR		"Clear Operation"
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+}
+
+165 Glass_Present_In_Robot_Low_Hand{
+	"There is already glass in lower hand of robot."
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+166 Glass_Empty_In_Robot_Low_Hand{
+	"There is NOT glass in lower hand of robot."
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+167 Glass_Present_In_PM1{
+	"There is already glass in Process Module 1."
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+168 Glass_Empty_In_PM1{
+	"There is NOT glass in Process Module 1."
+	RETRY		"Retry Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}

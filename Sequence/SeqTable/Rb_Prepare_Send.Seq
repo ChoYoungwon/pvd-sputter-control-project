@@ -1,0 +1,4 @@
+$RunType	Normal
+
+#TMC_ROBOT_CONTROL	"ROTPLC %s"
+#TMC_ISOGATE_GATEWAY	"OPEN %s"

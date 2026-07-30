@@ -1,0 +1,343 @@
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+#	CM4.	 ALARM ......401 ~ 430
+#	CM4.CODE.	ALARM......451 ~ 500
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+
+401 CM4.NOTHOME {
+	"CM4 'S NOTHOME ERROR"
+	CLEAR		"Clear"
+}
+
+402 CM4.DOUBLE.WAFER {
+	"CM4 'S DOUBLE WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+403 CM4.CROSS.WAFER {
+	"CM4 'S CROSS WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+404 CM4.UNKNOWN.WAFER {
+	"CM4 'S UNKNOWN WAFER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+405 CM4.LOADPORT.ERROR {
+	"CM4 'S LOADPORT ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+406 CM4.READ.COMMERROR {
+	"CM4 'S DATA READ COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+407 CM4.WRITE.COMMERROR {
+	"CM4 'S DATA WRITE COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+408 CM4.NOTREADY {
+	"CM4 'S LOADPORT RUNNING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+409 CM4.NOTREADY {
+	"CM4 'S LOADPORT RUNNING ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+410 CM4.NOTCARRIER {
+	"CM4 'S NOTCARRIER ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+411 CM4.INIT.TIMEOUT {
+	"CM4 'S INIT TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+412 CM4.CLAMP.TIMEOUT {
+	"CM4 'S CLAMP TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+413 CM4.UNCLAMP.TIMEOUT {
+	"CM4 'S UNCLAMP TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+414 CM4.OPEN.TIMEOUT {
+	"CM4 'S OPEN TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+415 CM4.CLOSE.TIMEOUT {
+	"CM4 'S CLOSE TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+416 CM4.LOAD.TIMEOUT {
+	"CM4 'S LOAD TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+417 CM4.UNLOAD.TIMEOUT {
+	"CM4 'S UNLOAD TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+418 CM4.MAPPING.TIMEOUT {
+	"CM4 'S MAPPING TIMEOUT"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+419 CM4.CLAMP.FAIL {
+	"CM4 'S CLAMP FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+420 CM4.UNCLAMP.FAIL {
+	"CM4 'S UNCLAMP FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+421 CM4.OPEN.FAIL {
+	"CM4 'S OPEN FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+422 CM4.CLOSE.FAIL {
+	"CM4 'S CLOSE FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+423 CM4.LOAD.FAIL {
+	"CM4 'S LOAD FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+424 CM4.UNLOAD.FAIL {
+	"CM4 'S UNLOAD FAIL"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+425 CM4.MAPPING.DATA.ERROR {
+	"CM4 'S MAPPING DATA ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+426 CM4.EXTEND {
+	"CM4 'S EXTEND ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+427 CM4.ALARM.CLEAR.ERROR {
+	"CM4 'S CLEAR COMMUNICATION ERROR"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+
+#--------------------------------------------------------------------
+#  AGV(431-437) Load/Unload(438-450)
+#--------------------------------------------------------------------
+
+431 CM4.AGV.VALID {
+	"CM4 'S AGV VALID SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+432 CM4.AGV.TRREQ {
+	"CM4 'S AGV TRANSFER_REQUEST SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+433 CM4.AGV.BUSY {
+	"CM4 'S AGV BUSY SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+434 CM4.AGV.CASSRECV {
+	"CM4 'S AGV CARRIER RECV TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+435 CM4.AGV.COMPLETE {
+	"CM4 'S AGV COMPLETE SIGNAL ON TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+436 CM4.AGV.CSOFF {
+	"CM4 'S AGV CASS MODE SIGNAL OFF TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+437 CM4.AGV.CASSMOVE {
+	"CM4 'S AGV CARRIER MOVE TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+438 CM4.LOAD.CLAMP {
+	"CM4 'S CLAMP TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+439 CM4.UNLOAD.UNCLAMP {
+	"CM4 'S UNCLAMP TIMEOUT ERROR"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+441 CM4.LOAD.CARRIER.PRESENT {
+	"CM4 'S CARRIER ALREADY PRESENT"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+442 CM4.LOAD.CARRIER.ABSENT {
+	"CM4 'S CARRIER ABSENT"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+443 CM4.AMHS.MANUAL {
+	"CM4 'S CARRIER ARRIVE IN MANUAL MODE"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+444 CM4.VALID.OFF {
+	"CM4 'S VALID SIGNAL OFF IN SIGNAL HANDSHAKING"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+445 CM4.LIGHT.CURTAIN.DETECT {
+	"CM4 'S LIGHT CURTAIN ON IN SIGNAL HANDSHAKING"
+	RETRY		"Retry Signal Check"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+#--------------------------------------------------------------------
+# BarCode/RFID (451~500)
+#--------------------------------------------------------------------
+
+451 CM4.MID.READ.FAIL{
+	"CM4'S MID Read Fail"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+452 CM4.RFID.COMM.ERROR{
+	"CM4'S RFID Communication Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+453 CM4.RFID.HAS.ERROR{
+	"CM4'S RFID has a Error"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+454 CM4.RFID.UNKNOWN.RANGE{
+	"CM4'S RFID Unknown Range"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+455 CM4.CARRIER.ABSENT{
+	"CM4'S Carrier Absent"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
+456 CM4.CARRIER.DOCKING{
+	"CM4'S Carrier Docking Status"
+	RETRY		"Retry"
+	ABORT		"Abort"
+	IGNORE		"Ignore => Regards as SUCCESS"
+}
+
