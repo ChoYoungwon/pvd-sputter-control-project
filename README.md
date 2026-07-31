@@ -21,15 +21,23 @@ EasyCluster Framework를 이용해 PVD sputtering 공정의 설비 제어 S/W를
     5) 타깃 스퍼터링
        - 아르곤 이온이 타깃 쪽으로 가속되어 충돌합니다. 
        - 이온이 가진 에너지가 타깃 원자의 결합 에너지보다 크면 타깃 표면에서 원자가 튕겨져 방출되게 됩니다.
-    6) 배기(Vent) 동작 실행
+    6) 대기압 복귀(Vent) 동작 실행
 
 #### 1.2. 주요 구현
 - GUI
-- IO Define
+  - EasyCluster에서 제공하는 GUI Editor를 이용하였습니다.
+- I/O Define
+  - 제어 SW 구현 키트의 물리적인 한계로 설비의 IO는 LED의 On/Off 형태로 연결해 사용하였습니다.
+  - Real I/O, Virtual I/O, Parameter I/O로 구분할 수 있습니다.
 - Interlock/Alarm
-- Sequence
-- Manual
+  - Setpoint Interlock : I/O의 변화시 조건을 검사합니다.
+  - Value Interlock : 주기적으로 I/O의 값과 조건을 비교합니다.
+- Function
+  - Transfer Module : Robot이 Glass를 PM1과 PM2에 전송하는 동작을 구현하였습니다.
+  - PM1(Developer) : Nozzle의 이동, On/Off 동작을 구현하였습니다.
+  - PM2(Sputter) : Sputter 공정에서의 Pump Down, Vent 동작을 구현하였습니다.
 - HandShake
+  - Transfer Module과 PM간의 Glass 이동 시의 통신 규약입니다.
 - Recipe
 
 #### 1.3. 설비 구성도
@@ -39,8 +47,7 @@ EasyCluster Framework를 이용해 PVD sputtering 공정의 설비 제어 S/W를
 ### 2. GUI
 ### 3. IO Define
 ### 4. Interlock/Alarm
-### 5. Sequence
-### 6. Manual
+### 5. Function
 ### 7. HandShake
 ### 8. Recipe
 ### 9. 전체 실행 동작
