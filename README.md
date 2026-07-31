@@ -1,10 +1,10 @@
 # pvd-sputter-control-project
 Display Equipment Control Software Training by Display Academy  
 [Education Date : 2026-06-29 ~ 2026-07-24]  
-[Project Date: 2026-07-20 ~ 2026-07-24]
   
 ### 1. 프로젝트 개요
-EasyCluster Framework를 이용해 PVD sputtering 공정의 설비 제어 S/W를 구현하였습니다.
+EasyCluster Framework를 이용해 PVD sputtering 공정의 설비 제어 S/W를 구현하였습니다.  
+[Project Date: 2026-07-20 ~ 2026-07-24]  
 
 #### 1.1. 공정 개요
 - PVD 공정이란
