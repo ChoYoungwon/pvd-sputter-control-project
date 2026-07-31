@@ -1,7 +1,6 @@
 # pvd-sputter-control-project
 [Date : 2026-06-29 ~ 2026-07-24]  
 Display Equipment Control Software Training by Display Academy  
-
   
 ### 1. 프로젝트 개요
 [Date: 2026-07-20 ~ 2026-07-24]  
@@ -31,23 +30,29 @@ EasyCluster Framework를 이용해 PVD sputtering 공정의 설비 제어 S/W를
   - EasyCluster에서 제공하는 GUI Editor를 이용하였습니다.
 - I/O Define
   - 제어 SW 구현 키트의 물리적인 한계로 설비의 IO는 LED의 On/Off 형태로 연결해 사용하였습니다.
-  - Real I/O, Virtual I/O, Parameter I/O로 구분할 수 있습니다.
+  - **Real I/O**, **Virtual I/O**, **Parameter I/O**로 구분할 수 있습니다.
 - Interlock/Alarm
-  - Setpoint Interlock : I/O의 변화시 조건을 검사합니다.
-  - Value Interlock : 주기적으로 I/O의 값과 조건을 비교합니다.
+  - **Setpoint Interlock** : I/O의 변화시 조건을 검사합니다.
+  - **Value Interlock** : 주기적으로 I/O의 값과 조건을 비교합니다.
 - Function
-  - Transfer Module : Robot이 Glass를 PM1과 PM2에 전송하는 동작을 구현하였습니다.
-  - PM1(Developer) : Nozzle의 이동, On/Off 동작을 구현하였습니다.
-  - PM2(Sputter) : Sputter 공정에서의 Pump Down, Vent 동작을 구현하였습니다.
+  - **Transfer Module** : Robot이 Glass를 PM1과 PM2에 전송하는 동작을 구현하였습니다.
+  - **PM1**(Developer) : Nozzle의 이동, On/Off 동작을 구현하였습니다.
+  - **PM2**(Sputter) : Sputter 공정에서의 Pump Down, Vent 동작을 구현하였습니다.
 - HandShake
   - Transfer Module과 PM간의 Glass 이동 시의 통신 규약입니다.
 - Recipe
+  - **Lot Recipe** : Glass 각 장마다 적용될 Cluster Recipe를 선택합니다.
+  - **Cluster Recipe** : 한 장에 대한 Glass의 Path를 설정합니다.
+  - **Process Recipe** : Chamber에서 Glass에 적용될 공정 Recipe입니다.
 
 #### 1.3. 설비 구성도
 ![chamber](GitImage/Chamber.png)
 - 프로젝트 진행 중 강사님께 제공받은 이미지 입니다.
 
 ### 2. GUI
+EasyCluster에서 제공하는 GUI Editor를 이용하여 UI 화면을 편집하였습니다.(Visual Studio와 유사)  
+[세부적인 UI 화면으로 이동(클릭)](GUI/README.md)
+
 ### 3. IO Define
 ### 4. Interlock/Alarm
 ### 5. Function
