@@ -1,6 +1,7 @@
 ### GUI
 #### 1) 메인 화면
-![Main](../GitImage/Main.jpg)
+<img src="../GitImage/Main.jpg" width="65%">
+
 - 주요 기능
   - Go-Init : 설비를 초기 상태로 설정합니다.
   - Go-Maint : Manual 동작을 수행하도록 상태를 변경합니다.
@@ -12,23 +13,23 @@
   - 레시피를 선택하고 실행합니다.
 
 #### 2) PM1 Manual 동작
-![PM1Manual](../GitImage/PM1Manual.jpg)
-- 
+<img src="../GitImage/PM1Manual.jpg" width="65%">
+
 
 #### 3) PM2 Manual 동작
-![PM2Manual](../GitImage/PM2Manual.jpg)
+<img src="../GitImage/PM2Manual.jpg" width="65%">
 
 #### 4) PM2 Function
-![Sputter](../GitImage/Sputter.jpg)
+<img src="../GitImage/Sputter.jpg" width="65%">
 
 #### 5) Transfer Function
-![Transfer](../GitImage/Transfer.jpg)
+<img src="../GitImage/Transfer.jpg" width="65%">
 
 #### 6) PM1 ProcessRCP
-![PM1ProcsRecipe](../GitImage/PM1ProcsRecipe.jpg)
+<img src="../GitImage/PM1ProcsRecipe.jpg" width="65%">
 
 #### 7) PM2 ProcessRCP
-![PM2ProcsRecipe](../GitImage/PM2ProcsRecipe.jpg)
+<img src="../GitImage/PM2ProcsRecipe.jpg" width="65%">
 
 #### 8) Parameter IO 값
-![ParameterIO](../GitImage/ParameterIO.jpg)
+<img src="../GitImage/ParameterIO.jpg" width="65%">
