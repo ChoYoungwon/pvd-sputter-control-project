@@ -96,27 +96,27 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
 
 ### 8. Recipe
 #### 8.1. Recipe 종류
-- **Lot Recipe**: Wafer의 **각 장마다 적용될 Cluster Recipe를 선택합니다.**
-	- Cluster Recipe를 몇 번째 슬롯에서 돌릴 것인지에 대한 Recipe 작성합니다.
-	- Lot Recipe는 **Auto Run 동작 시 발생되는 Recipe 항목입니다.**
-	- 이전 Recipe 작성과 동일한 기능을 제공합니다.. (생성, 수정, 삭제)
-- **Cluster Recipe**: 1장에 대한 Wafer의 PM Path를 작성합니다.
-	- Process Recipe를 **Depth를 통해 어떻게, 어느 시점에 Process를 돌릴 건지에 대한 Recipe입니다.**
-	- Pre / Post Recipe는 Wafer가 Chamber가 공급되기 전, 회수 후에 발생되는 Recipe입니다.
-	- Main Recipe는 Wafer가 Chamber 안에 공급되고나서 발생되는 Recipe입니다.
-- **Process Recipe**: Wafer에 적용될 공정 Recipe입니다.
-	- 전공정 증착 혹은 식각되는 막의 종류나 그 형태, 속도 등을 결정하는 공정 조건입니다.
-	- 설비 종류, 공정 조건 및 제어 형태에 따라 Recipe Step 및 항목이 다양하게 작성됩니다.
+  1) **Lot Recipe**: Wafer의 **각 장마다 적용될 Cluster Recipe를 선택합니다.**
+  	- Cluster Recipe를 몇 번째 슬롯에서 돌릴 것인지에 대한 Recipe 작성합니다.
+  	- Lot Recipe는 **Auto Run 동작 시 발생되는 Recipe 항목입니다.**
+  	- 이전 Recipe 작성과 동일한 기능을 제공합니다.. (생성, 수정, 삭제)
+  2) **Cluster Recipe**: 1장에 대한 Wafer의 PM Path를 작성합니다.
+  	- Process Recipe를 **Depth를 통해 어떻게, 어느 시점에 Process를 돌릴 건지에 대한 Recipe입니다.**
+  	- Pre / Post Recipe는 Wafer가 Chamber가 공급되기 전, 회수 후에 발생되는 Recipe입니다.
+  	- Main Recipe는 Wafer가 Chamber 안에 공급되고나서 발생되는 Recipe입니다.
+  3) **Process Recipe**: Wafer에 적용될 공정 Recipe입니다.
+  	- 전공정 증착 혹은 식각되는 막의 종류나 그 형태, 속도 등을 결정하는 공정 조건입니다.
+  	- 설비 종류, 공정 조건 및 제어 형태에 따라 Recipe Step 및 항목이 다양하게 작성됩니다.
 
 #### 8.2. Recipe 구현사항
 [Recipe 영상](https://drive.google.com/file/d/1A8q7_5iIirdDRSfzdSXk4s9obNzH409t/view?usp=drive_link)
 - Recipe를 GUI에서 등록 및 설정하는 영상입니다.
 
 #### 8.3. Recipe 동작
-1) CM!에서 Cluster Recipe로 설정된 경로로 Move 동작을 수행합니다.
-2) Process Recipe를 수행합니다.
-3) 공정 완료 후 Cluster Recipe에 설정된 다음 경로로 Move 합니다. 완료 후 다시 2)를 수행합니다.  
-   (다음 경로가 없을 경우 설정한 도착지점으로 Move하고 Auto Run을 완료합니다..) 
+  1) CM!에서 Cluster Recipe로 설정된 경로로 Move 동작을 수행합니다.
+  2) Process Recipe를 수행합니다.
+  3) 공정 완료 후 Cluster Recipe에 설정된 다음 경로로 Move 합니다. 완료 후 다시 2)를 수행합니다.  
+     (다음 경로가 없을 경우 설정한 도착지점으로 Move하고 Auto Run을 완료합니다..) 
 
 #### 8.4. Process Recipe 구현
 (F_SEQ.dat)SCHEDULER_PROCESS_PM00 -> "Sequence/Interface_Run_Recipe.cfg|PM00" 수행합니다.  
@@ -131,13 +131,13 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
 -> Post_Process() : 공정 후 수행할 동작을 진행합니다. (ex Vent 등)  
 
 #### 8.5. Sputter(PM2) Recipe Item
-1) Step Use : 사용 여부
-2) Ar Flow : ArGas Valve 값
-3) Process Pressure : 공정 압력
-4) DC Power : DC 파워
-5) Ramp Up Time : Ramp Up(증가) 시간 (작을 수록 빠르다.)
-6) Process Time(Step Time) : 공정 시간
-7) Ramp Down Time : Ramp Down(하락) 시간
+   1) Step Use : 사용 여부
+   2) Ar Flow : ArGas Valve 값
+   3) Process Pressure : 공정 압력
+   4) DC Power : DC 파워
+   5) Ramp Up Time : Ramp Up(증가) 시간 (작을 수록 빠르다.)
+   6) Process Time(Step Time) : 공정 시간
+   7) Ramp Down Time : Ramp Down(하락) 시간
 
 ### 9. 설비 AutoRun 동작
 [설비 AutoRun 영상](https://drive.google.com/file/d/1Ue6DWdgKNxRe6FYfPdrqr5W0nmlNf8Dg/view?usp=drive_link)
