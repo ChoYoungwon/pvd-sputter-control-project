@@ -109,7 +109,7 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
 	- 설비 종류, 공정 조건 및 제어 형태에 따라 Recipe Step 및 항목이 다양하게 작성됩니다.
 
 #### 8.2. Recipe 구현사항
-![Recipe 영상](https://drive.google.com/file/d/1A8q7_5iIirdDRSfzdSXk4s9obNzH409t/view?usp=drive_link)
+[Recipe 영상](https://drive.google.com/file/d/1A8q7_5iIirdDRSfzdSXk4s9obNzH409t/view?usp=drive_link)
 - Recipe를 GUI에서 등록 및 설정하는 영상입니다.
 
 #### 8.3. Recipe 동작
@@ -131,7 +131,7 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
 -> Post_Process() : 공정 후 수행할 동작을 진행합니다. (ex Vent 등)  
 
 ### 9. 설비 AutoRun 동작
-![설비 AutoRun 영상](https://drive.google.com/file/d/1Ue6DWdgKNxRe6FYfPdrqr5W0nmlNf8Dg/view?usp=drive_link)
+[설비 AutoRun 영상](https://drive.google.com/file/d/1Ue6DWdgKNxRe6FYfPdrqr5W0nmlNf8Dg/view?usp=drive_link)
 
 ### 9. EasyCluster 설치 및 프로그램 실행 방법
 1) EasyCluster(2019.10.31)_V3.8 -> Setup.exe 설치
