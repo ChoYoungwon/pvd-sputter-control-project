@@ -133,12 +133,12 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
 ### 9. 설비 AutoRun 동작
 [설비 AutoRun 영상](https://drive.google.com/file/d/1Ue6DWdgKNxRe6FYfPdrqr5W0nmlNf8Dg/view?usp=drive_link)
 
-### 9. EasyCluster 설치 및 프로그램 실행 방법
+### 10. EasyCluster 설치 및 프로그램 실행 방법
 1) EasyCluster(2019.10.31)_V3.8 -> Setup.exe 설치
 2) K 드라이브 생성확인 및 SystemConsole 생성여부 확인
 3) Run.bat 또는 Simulation.bat 실행
 
-### 10. 사용 스택, 기술
+### 11. 사용 스택, 기술
 1) Framework : EasyCluster v3.8 Engine
 2) Language : C
 3) IDLE : Visual Studio(2022)
