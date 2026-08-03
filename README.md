@@ -130,6 +130,15 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
   하위 레벨의 Function에 메시지를 보내서 수행하는 것이 이상적이지만 프로젝트 시간 부족 문제로 SEQ_SPUTTER_DEVICE_CONTROL이라는 강사님께서 미리 만들은 EXE파일에 메시지를 보내는 방식으로 바로 구현하였습니다.   
 -> Post_Process() : 공정 후 수행할 동작을 진행합니다. (ex Vent 등)  
 
+#### 8.5. Sputter(PM2) Recipe Item
+1) Step Use : 사용 여부
+2) Ar Flow : ArGas Valve 값
+3) Process Pressure : 공정 압력
+4) DC Power : DC 파워
+5) Ramp Up Time : Ramp Up(증가) 시간 (작을 수록 빠르다.)
+6) Process Time(Step Time) : 공정 시간
+7) Ramp Down Time : Ramp Down(하락) 시간
+
 ### 9. 설비 AutoRun 동작
 [설비 AutoRun 영상](https://drive.google.com/file/d/1Ue6DWdgKNxRe6FYfPdrqr5W0nmlNf8Dg/view?usp=drive_link)
 
