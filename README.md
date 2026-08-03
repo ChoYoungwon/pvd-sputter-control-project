@@ -109,7 +109,7 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
 	- 설비 종류, 공정 조건 및 제어 형태에 따라 Recipe Step 및 항목이 다양하게 작성됩니다.
 
 #### 8.2. Recipe 구현사항
-![Recipe](GitImage/Recipe.mp4)
+![Recipe 영상](https://drive.google.com/file/d/1A8q7_5iIirdDRSfzdSXk4s9obNzH409t/view?usp=drive_link)
 - Recipe를 GUI에서 등록 및 설정하는 영상입니다.
 
 #### 8.3. Recipe 동작
@@ -123,18 +123,22 @@ Main Engine과 연결되어지는 단일 실행 Code입니다.
 -> PM00.PROCESS_IN  
 -> Sequence/SeqProcessPM00/Sequence.exe 실행 (PM00 메세지 전달)  
 -> Program_Main()이 실행됩니다.  
--> Program_Main_Sub()이 실행됩니다. (공정 전, 실행, 후 동작 수행)  
--> **Recipe_Reading(&nAppendData)**를 통해 레시피 변수를 읽습니다.  
+-> Program_Main_Sub()이 실행됩니다. (공정 전, 실행, 후 동작 수행)    
+-> **Recipe_Reading(&nAppendData)** 를 통해 레시피 변수를 읽습니다.  
 -> Pre_Process() 공정 전 동작을 실행합니다. (ex Pump Down 등)  
 -> **Process_Main()** : Main 공정 프로세스를 진행합니다.    
   하위 레벨의 Function에 메시지를 보내서 수행하는 것이 이상적이지만 프로젝트 시간 부족 문제로 SEQ_SPUTTER_DEVICE_CONTROL이라는 강사님께서 미리 만들은 EXE파일에 메시지를 보내는 방식으로 바로 구현하였습니다.   
 -> Post_Process() : 공정 후 수행할 동작을 진행합니다. (ex Vent 등)  
 
 ### 9. 설비 AutoRun 동작
-
+![설비 AutoRun 영상](https://drive.google.com/file/d/1Ue6DWdgKNxRe6FYfPdrqr5W0nmlNf8Dg/view?usp=drive_link)
 
 ### 9. EasyCluster 설치 및 프로그램 실행 방법
+1) EasyCluster(2019.10.31)_V3.8 -> Setup.exe 설치
+2) K 드라이브 생성확인 및 SystemConsole 생성여부 확인
+3) Run.bat 또는 Simulation.bat 실행
 
-
-### 10. 참고
-#### 10.1. 사용 스택, 기술
+### 10. 사용 스택, 기술
+1) Framework : EasyCluster v3.8 Engine
+2) Language : C
+3) IDLE : Visual Studio(2022)
