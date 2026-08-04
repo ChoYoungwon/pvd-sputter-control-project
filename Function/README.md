@@ -35,23 +35,23 @@ GUI 클릭
 -> SCHEDULER_MAINT_000_ALL (F_SEQ.dat)  
 -> SeqMaintModule/Sequence.exe에 TM 또는 PM1 또는 PM2 인자 전달   
 -> GO_INT 또는 GO_STANDBY 또는 GO_MAINT 또는 "" 메시지 전달  
--> Sequence/Interface_Maint_00.cfg에 메시지 전달 
--> **SEQ_ROBOT_TRANSFER** 또는 **SEQ_PM1_DEVELOPER_CONTROL** 또는 **SEQ_PM2_CHAMBER_CONTROL**에 메시지를 전달합니다.
+-> Sequence/Interface_Maint_00.cfg에 메시지 전달   
+-> **SEQ_ROBOT_TRANSFER** 또는 **SEQ_PM1_DEVELOPER_CONTROL** 또는 **SEQ_PM2_CHAMBER_CONTROL**에 메시지를 전달합니다.  
 
 #### 2.2. 로봇팔 Function
 GUI 클릭   
--> SCHEDULER_MAINT_TM_ALL(F_SEQ.dat)에 메시지 전달(ex "MANUAL_MOVE")
+-> SCHEDULER_MAINT_TM_ALL(F_SEQ.dat)에 메시지 전달(ex "MANUAL_MOVE")  
 -> SeqMaintModule/Sequence.exe에 TM인자 전달   
 -> "PICK_TM|1|sationname|A|1|1"이 스케쥴러에 전달된다.  
 -> SCHEDULER_MAINT_TM 에 메시지 전달  
--> Sequence/Interface_Maint_TM.cfg에 메시지 전달
+-> Sequence/Interface_Maint_TM.cfg에 메시지 전달  
 -> **SEQ_ROBOT_TRANSFER** 에 메시지 전달  
 	("MANUAL_MOVE CTC.TR_SRC_STATION CTC.TR_SRC_SLOT CTC.TR_TRG_STATION	CTC.TR_TRG_SLOT")  
 -> **SEQ_ROBOT_MOTOR**에서 동작 수행  
 
 #### 2.3. PM1, PM2 Function
 GUI 클릭
--> SCHEDULER_MAINT_PM00에 메시지 전송(ex "PUMP_DOWN") 
+-> SCHEDULER_MAINT_PM00에 메시지 전송(ex "PUMP_DOWN")  
 -> Sequence/Interface_Maint_TM.cfg에 메시지 전달  
 -> **SEQ_PM1_DEVELOPER_CONTROL** or **SEQ_PM2_CHAMBER_CONTROL**에 메시지를 전달합니다.  
 -> 동작을 수행합니다.  
