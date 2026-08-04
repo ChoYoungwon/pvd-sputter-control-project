@@ -50,7 +50,7 @@ GUI 클릭
 -> **SEQ_ROBOT_MOTOR**에서 동작 수행  
 
 #### 2.3. PM1, PM2 Function
-GUI 클릭
+GUI 클릭  
 -> SCHEDULER_MAINT_PM00에 메시지 전송(ex "PUMP_DOWN")  
 -> Sequence/Interface_Maint_TM.cfg에 메시지 전달  
 -> **SEQ_PM1_DEVELOPER_CONTROL** or **SEQ_PM2_CHAMBER_CONTROL**에 메시지를 전달합니다.  
